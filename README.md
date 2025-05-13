@@ -132,6 +132,7 @@ INFO: --- Sincronizacion completada correctamente ---
 Este proyecto ha sido desarrollado en colaboración con:
 
 - [JoseAngelHub](https://github.com/JoseAngelHub)
+- [JoseAngelHub](https://github.com/DaniAndries)
 
 ## 📄 **Licencia**
 
