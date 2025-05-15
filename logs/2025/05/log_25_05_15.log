@@ -273,3 +273,340 @@
 2025/05/15 11:03:26 | Checking... 11:01
 2025/05/15 11:03:26 | Archivo config existente, comprobando formato
 2025/05/15 11:03:26 | No hubo cambios: todos los campos existen.
+2025/05/15 11:03:56 | Checking... 11:01
+2025/05/15 11:03:56 | Archivo config existente, comprobando formato
+2025/05/15 11:03:56 | No hubo cambios: todos los campos existen.
+2025/05/15 11:04:26 | Checking... 11:01
+2025/05/15 11:04:26 | Archivo config existente, comprobando formato
+2025/05/15 11:04:26 | No hubo cambios: todos los campos existen.
+2025/05/15 11:04:56 | Checking... 11:01
+2025/05/15 11:04:56 | Archivo config existente, comprobando formato
+2025/05/15 11:04:56 | No hubo cambios: todos los campos existen.
+2025/05/15 11:05:26 | Checking... 11:01
+2025/05/15 11:05:26 | Archivo config existente, comprobando formato
+2025/05/15 11:05:26 | No hubo cambios: todos los campos existen.
+2025/05/15 11:05:56 | Checking... 11:01
+2025/05/15 11:05:56 | Archivo config existente, comprobando formato
+2025/05/15 11:05:56 | No hubo cambios: todos los campos existen.
+2025/05/15 11:06:26 | Checking... 11:01
+2025/05/15 11:06:26 | Archivo config existente, comprobando formato
+2025/05/15 11:06:26 | No hubo cambios: todos los campos existen.
+2025/05/15 11:16:00 | Archivo config existente, comprobando formato
+2025/05/15 11:16:00 | No hubo cambios: todos los campos existen.
+2025/05/15 11:16:00 | Tarea programada para las 11:01
+2025/05/15 11:16:00 | Checking... 11:01
+2025/05/15 11:16:30 | Archivo config existente, comprobando formato
+2025/05/15 11:16:30 | No hubo cambios: todos los campos existen.
+2025/05/15 11:16:30 | Checking... 11:01
+2025/05/15 11:17:00 | Archivo config existente, comprobando formato
+2025/05/15 11:17:00 | No hubo cambios: todos los campos existen.
+2025/05/15 11:17:00 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/15 11:17:00 | Tarea programada para las 11:18
+2025/05/15 11:17:00 | Checking... 11:18
+2025/05/15 11:17:30 | Archivo config existente, comprobando formato
+2025/05/15 11:17:30 | No hubo cambios: todos los campos existen.
+2025/05/15 11:17:30 | Checking... 11:18
+2025/05/15 11:18:00 | Archivo config existente, comprobando formato
+2025/05/15 11:18:00 | No hubo cambios: todos los campos existen.
+2025/05/15 11:18:00 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/15 11:18:00 | Archivo config existente, comprobando formato
+2025/05/15 11:18:00 | No hubo cambios: todos los campos existen.
+2025/05/15 11:18:00 | Archivo config existente, comprobando formato
+2025/05/15 11:18:00 | No hubo cambios: todos los campos existen.
+2025/05/15 11:18:00 | Conectando a la base de datos...
+2025/05/15 11:18:00 | 394 registros recuperados de la base de datos.
+2025/05/15 11:18:00 | Fichero generado: usr_20250515.csv
+2025/05/15 11:18:00 | Conectando via FTP a 192.168.200.135...
+2025/05/15 11:18:00 | Buscando la ruta /USERS/USUARIO/DESKTOP
+2025/05/15 11:18:00 | Archivo subido via FTP correctamente
+2025/05/15 11:18:00 | Checking... 11:18
+2025/05/15 11:18:30 | Archivo config existente, comprobando formato
+2025/05/15 11:18:30 | No hubo cambios: todos los campos existen.
+2025/05/15 11:18:30 | Checking... 11:18
+2025/05/15 11:19:00 | Archivo config existente, comprobando formato
+2025/05/15 11:19:00 | No hubo cambios: todos los campos existen.
+2025/05/15 11:19:00 | Checking... 11:18
+2025/05/15 11:39:26 | Archivo config existente, comprobando formato
+2025/05/15 11:39:26 | No hubo cambios: todos los campos existen.
+2025/05/15 11:39:26 | Tarea programada para las 11:18
+2025/05/15 11:39:26 | Checking... 11:18
+2025/05/15 11:39:56 | Archivo config existente, comprobando formato
+2025/05/15 11:39:56 | No hubo cambios: todos los campos existen.
+2025/05/15 11:39:56 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/15 11:39:56 | Tarea programada para las 11:40
+2025/05/15 11:39:56 | Checking... 11:40
+2025/05/15 11:40:26 | Archivo config existente, comprobando formato
+2025/05/15 11:40:26 | No hubo cambios: todos los campos existen.
+2025/05/15 11:40:26 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/15 11:40:26 | Archivo config existente, comprobando formato
+2025/05/15 11:40:26 | No hubo cambios: todos los campos existen.
+2025/05/15 11:40:26 | Archivo config existente, comprobando formato
+2025/05/15 11:40:26 | No hubo cambios: todos los campos existen.
+2025/05/15 11:40:26 | Conectando a la base de datos...
+2025/05/15 11:40:27 | 394 registros recuperados de la base de datos.
+2025/05/15 11:40:27 | Fichero generado: prueba_20250515.xlsx
+2025/05/15 11:40:27 | Conectando via FTP a 192.168.200.135...
+2025/05/15 11:40:27 | Buscando la ruta /USERS/USUARIO/DESKTOP
+2025/05/15 11:40:27 | Archivo subido via FTP correctamente
+2025/05/15 11:40:27 | Checking... 11:40
+2025/05/15 11:40:57 | Archivo config existente, comprobando formato
+2025/05/15 11:40:57 | No hubo cambios: todos los campos existen.
+2025/05/15 11:40:57 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/15 11:40:57 | Tarea programada para las 11:42
+2025/05/15 11:40:57 | Checking... 11:42
+2025/05/15 11:41:27 | Archivo config existente, comprobando formato
+2025/05/15 11:41:27 | No hubo cambios: todos los campos existen.
+2025/05/15 11:41:27 | Checking... 11:42
+2025/05/15 11:41:57 | Archivo config existente, comprobando formato
+2025/05/15 11:41:57 | No hubo cambios: todos los campos existen.
+2025/05/15 11:41:57 | Checking... 11:42
+2025/05/15 11:42:27 | Archivo config existente, comprobando formato
+2025/05/15 11:42:27 | No hubo cambios: todos los campos existen.
+2025/05/15 11:42:27 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/15 11:42:27 | Archivo config existente, comprobando formato
+2025/05/15 11:42:27 | No hubo cambios: todos los campos existen.
+2025/05/15 11:42:27 | Archivo config existente, comprobando formato
+2025/05/15 11:42:27 | No hubo cambios: todos los campos existen.
+2025/05/15 11:42:27 | Conectando a la base de datos...
+2025/05/15 11:42:28 | 394 registros recuperados de la base de datos.
+2025/05/15 11:42:28 | Fichero generado: prueba_20250515.xlsx
+2025/05/15 11:42:28 | Conectando via SFTP a 192.168.200.135...
+2025/05/15 11:42:28 | starting thread (client mode): 0x99e46660
+2025/05/15 11:42:28 | Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025/05/15 11:42:28 | Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_8.6
+2025/05/15 11:42:28 | Connected (version 2.0, client OpenSSH_for_Windows_8.6)
+2025/05/15 11:42:28 | === Key exchange possibilities ===
+2025/05/15 11:42:28 | kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2025/05/15 11:42:28 | server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025/05/15 11:42:28 | client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/15 11:42:28 | server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/15 11:42:28 | client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/15 11:42:28 | server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/15 11:42:28 | client compress: none, zlib@openssh.com
+2025/05/15 11:42:28 | server compress: none, zlib@openssh.com
+2025/05/15 11:42:28 | client lang: <none>
+2025/05/15 11:42:28 | server lang: <none>
+2025/05/15 11:42:28 | kex follows: False
+2025/05/15 11:42:28 | === Key exchange agreements ===
+2025/05/15 11:42:28 | Kex: curve25519-sha256@libssh.org
+2025/05/15 11:42:28 | HostKey: ssh-ed25519
+2025/05/15 11:42:28 | Cipher: aes128-ctr
+2025/05/15 11:42:28 | MAC: hmac-sha2-256
+2025/05/15 11:42:28 | Compression: none
+2025/05/15 11:42:28 | === End of kex handshake ===
+2025/05/15 11:42:28 | kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025/05/15 11:42:28 | Switch to new keys ...
+2025/05/15 11:42:28 | Attempting password auth...
+2025/05/15 11:42:28 | Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025/05/15 11:42:28 | userauth is OK
+2025/05/15 11:42:28 | Authentication (password) successful!
+2025/05/15 11:42:28 | [chan 0] Max packet in: 32768 bytes
+2025/05/15 11:42:28 | Received global request "hostkeys-00@openssh.com"
+2025/05/15 11:42:28 | Rejecting "hostkeys-00@openssh.com" global request from server.
+2025/05/15 11:42:28 | [chan 0] Max packet out: 32768 bytes
+2025/05/15 11:42:28 | Secsh channel 0 opened.
+2025/05/15 11:42:28 | [chan 0] Sesch channel 0 request ok
+2025/05/15 11:42:28 | [chan 0] Opened sftp connection (server version 3)
+2025/05/15 11:42:28 | Buscando la ruta /USERS/USUARIO/DESKTOP
+2025/05/15 11:42:28 | [chan 0] open(b'/USERS/USUARIO/DESKTOP/prueba_20250515.xlsx', 'wb')
+2025/05/15 11:42:28 | [chan 0] open(b'/USERS/USUARIO/DESKTOP/prueba_20250515.xlsx', 'wb') -> 00000000
+2025/05/15 11:42:28 | [chan 0] close(00000000)
+2025/05/15 11:42:28 | [chan 0] stat(b'/USERS/USUARIO/DESKTOP/prueba_20250515.xlsx')
+2025/05/15 11:42:28 | [chan 0] sftp session closed.
+2025/05/15 11:42:28 | [chan 0] EOF sent (0)
+2025/05/15 11:42:28 | EOF in transport thread
+2025/05/15 11:42:28 | Archivo subido via SFTP correctamente
+2025/05/15 11:42:28 | Checking... 11:42
+2025/05/15 11:42:58 | Archivo config existente, comprobando formato
+2025/05/15 11:42:58 | No hubo cambios: todos los campos existen.
+2025/05/15 11:42:58 | Checking... 11:42
+2025/05/15 11:43:28 | Archivo config existente, comprobando formato
+2025/05/15 11:43:28 | No hubo cambios: todos los campos existen.
+2025/05/15 11:43:28 | Checking... 11:42
+2025/05/15 11:43:58 | Archivo config existente, comprobando formato
+2025/05/15 11:43:58 | No hubo cambios: todos los campos existen.
+2025/05/15 11:43:58 | Checking... 11:42
+2025/05/15 11:44:28 | Archivo config existente, comprobando formato
+2025/05/15 11:44:28 | No hubo cambios: todos los campos existen.
+2025/05/15 11:44:28 | Checking... 11:42
+2025/05/15 11:44:58 | Archivo config existente, comprobando formato
+2025/05/15 11:44:58 | No hubo cambios: todos los campos existen.
+2025/05/15 11:44:58 | Checking... 11:42
+2025/05/15 11:45:28 | Archivo config existente, comprobando formato
+2025/05/15 11:45:28 | No hubo cambios: todos los campos existen.
+2025/05/15 11:45:28 | Checking... 11:42
+2025/05/15 11:56:44 | Archivo config existente, comprobando formato
+2025/05/15 11:56:44 | Tarea programada para las 11:42
+2025/05/15 11:56:44 | Checking... 11:42
+2025/05/15 11:57:14 | Archivo config existente, comprobando formato
+2025/05/15 11:57:14 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/15 11:57:14 | Tarea programada para las 11:57
+2025/05/15 11:57:14 | Checking... 11:57
+2025/05/15 11:57:44 | Archivo config existente, comprobando formato
+2025/05/15 11:57:44 | Checking... 11:57
+2025/05/15 11:58:14 | Archivo config existente, comprobando formato
+2025/05/15 11:58:14 | Checking... 11:57
+2025/05/15 11:58:44 | Archivo config existente, comprobando formato
+2025/05/15 11:58:44 | Checking... 11:57
+2025/05/15 11:59:14 | Archivo config existente, comprobando formato
+2025/05/15 11:59:14 | Checking... 11:57
+2025/05/15 11:59:44 | Archivo config existente, comprobando formato
+2025/05/15 11:59:44 | Checking... 11:57
+2025/05/15 12:00:14 | Archivo config existente, comprobando formato
+2025/05/15 12:00:14 | Checking... 11:57
+2025/05/15 12:00:45 | Archivo config existente, comprobando formato
+2025/05/15 12:00:45 | Checking... 11:57
+2025/05/15 12:01:15 | Archivo config existente, comprobando formato
+2025/05/15 12:01:15 | Checking... 11:57
+2025/05/15 12:01:45 | Archivo config existente, comprobando formato
+2025/05/15 12:01:45 | Checking... 11:57
+2025/05/15 12:02:15 | Archivo config existente, comprobando formato
+2025/05/15 12:02:15 | Checking... 11:57
+2025/05/15 12:02:45 | Archivo config existente, comprobando formato
+2025/05/15 12:02:45 | Checking... 11:57
+2025/05/15 12:03:15 | Archivo config existente, comprobando formato
+2025/05/15 12:03:15 | Checking... 11:57
+2025/05/15 12:03:45 | Archivo config existente, comprobando formato
+2025/05/15 12:03:45 | Checking... 11:57
+2025/05/15 12:03:56 | Archivo config existente, comprobando formato
+2025/05/15 12:03:56 | Tarea programada para las 11:57
+2025/05/15 12:03:56 | Checking... 11:57
+2025/05/15 12:04:26 | Archivo config existente, comprobando formato
+2025/05/15 12:04:26 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/15 12:04:26 | Tarea programada para las 12:05
+2025/05/15 12:04:26 | Checking... 12:05
+2025/05/15 12:04:56 | Archivo config existente, comprobando formato
+2025/05/15 12:04:56 | Checking... 12:05
+2025/05/15 12:05:26 | Archivo config existente, comprobando formato
+2025/05/15 12:05:26 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/15 12:05:26 | Archivo config existente, comprobando formato
+2025/05/15 12:05:26 | Archivo config existente, comprobando formato
+2025/05/15 12:05:26 | Conectando a la base de datos...
+2025/05/15 12:05:27 | 394 registros recuperados de la base de datos.
+2025/05/15 12:05:27 | Fichero generado: prueba_20250515.xlsx
+2025/05/15 12:05:27 | Conectando via SFTP a 192.168.200.135...
+2025/05/15 12:05:27 | starting thread (client mode): 0x5c60c830
+2025/05/15 12:05:27 | Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025/05/15 12:05:27 | Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_8.6
+2025/05/15 12:05:27 | Connected (version 2.0, client OpenSSH_for_Windows_8.6)
+2025/05/15 12:05:27 | === Key exchange possibilities ===
+2025/05/15 12:05:27 | kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2025/05/15 12:05:27 | server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025/05/15 12:05:27 | client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/15 12:05:27 | server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/15 12:05:27 | client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/15 12:05:27 | server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/15 12:05:27 | client compress: none, zlib@openssh.com
+2025/05/15 12:05:27 | server compress: none, zlib@openssh.com
+2025/05/15 12:05:27 | client lang: <none>
+2025/05/15 12:05:27 | server lang: <none>
+2025/05/15 12:05:27 | kex follows: False
+2025/05/15 12:05:27 | === Key exchange agreements ===
+2025/05/15 12:05:27 | Kex: curve25519-sha256@libssh.org
+2025/05/15 12:05:27 | HostKey: ssh-ed25519
+2025/05/15 12:05:27 | Cipher: aes128-ctr
+2025/05/15 12:05:27 | MAC: hmac-sha2-256
+2025/05/15 12:05:27 | Compression: none
+2025/05/15 12:05:27 | === End of kex handshake ===
+2025/05/15 12:05:27 | kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025/05/15 12:05:27 | Switch to new keys ...
+2025/05/15 12:05:27 | Attempting password auth...
+2025/05/15 12:05:27 | Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025/05/15 12:05:27 | userauth is OK
+2025/05/15 12:05:27 | Authentication (password) successful!
+2025/05/15 12:05:27 | [chan 0] Max packet in: 32768 bytes
+2025/05/15 12:05:27 | Received global request "hostkeys-00@openssh.com"
+2025/05/15 12:05:27 | Rejecting "hostkeys-00@openssh.com" global request from server.
+2025/05/15 12:05:27 | [chan 0] Max packet out: 32768 bytes
+2025/05/15 12:05:27 | Secsh channel 0 opened.
+2025/05/15 12:05:27 | [chan 0] Sesch channel 0 request ok
+2025/05/15 12:05:27 | [chan 0] Opened sftp connection (server version 3)
+2025/05/15 12:05:27 | Buscando la ruta /USERS/USUARIO/DESKTOP
+2025/05/15 12:05:27 | [chan 0] open(b'/USERS/USUARIO/DESKTOP/prueba_20250515.xlsx', 'wb')
+2025/05/15 12:05:27 | [chan 0] open(b'/USERS/USUARIO/DESKTOP/prueba_20250515.xlsx', 'wb') -> 00000000
+2025/05/15 12:05:27 | [chan 0] close(00000000)
+2025/05/15 12:05:27 | [chan 0] stat(b'/USERS/USUARIO/DESKTOP/prueba_20250515.xlsx')
+2025/05/15 12:05:27 | [chan 0] sftp session closed.
+2025/05/15 12:05:27 | [chan 0] EOF sent (0)
+2025/05/15 12:05:27 | EOF in transport thread
+2025/05/15 12:05:27 | Archivo subido via SFTP correctamente
+2025/05/15 12:05:27 | Checking... 12:05
+2025/05/15 12:05:57 | Archivo config existente, comprobando formato
+2025/05/15 12:05:57 |   Se añadio opcion: TIMER.HOUR = 17:00
+2025/05/15 12:05:57 | Archivo 'config.ini' actualizado.
+2025/05/15 12:05:58 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/15 12:05:58 | Tarea programada para las 17:00
+2025/05/15 12:05:58 | Checking... 17:00
+2025/05/15 12:13:20 | Archivo config existente, comprobando formato
+2025/05/15 12:13:20 | Tarea programada para las 17:00
+2025/05/15 12:13:20 | Checking... 17:00
+2025/05/15 12:13:50 | Archivo config existente, comprobando formato
+2025/05/15 12:13:50 | Checking... 17:00
+2025/05/15 12:14:20 | Archivo config existente, comprobando formato
+2025/05/15 12:14:20 | Checking... 17:00
+2025/05/15 12:14:50 | Archivo config existente, comprobando formato
+2025/05/15 12:14:50 | Checking... 17:00
+2025/05/15 12:15:20 | Archivo config existente, comprobando formato
+2025/05/15 12:15:20 | Checking... 17:00
+2025/05/15 12:15:50 | Archivo config existente, comprobando formato
+2025/05/15 12:15:50 | Checking... 17:00
+2025/05/15 12:16:20 | Archivo config existente, comprobando formato
+2025/05/15 12:16:20 | Checking... 17:00
+2025/05/15 12:16:50 | Archivo config existente, comprobando formato
+2025/05/15 12:16:50 | Checking... 17:00
+2025/05/15 12:17:20 | Archivo config existente, comprobando formato
+2025/05/15 12:17:20 | Checking... 17:00
+2025/05/15 12:17:50 | Archivo config existente, comprobando formato
+2025/05/15 12:17:50 | Checking... 17:00
+2025/05/15 12:18:20 | Archivo config existente, comprobando formato
+2025/05/15 12:18:20 | Checking... 17:00
+2025/05/15 12:18:50 | Archivo config existente, comprobando formato
+2025/05/15 12:18:50 | Checking... 17:00
+2025/05/15 12:19:20 | Archivo config existente, comprobando formato
+2025/05/15 12:19:20 | Checking... 17:00
+2025/05/15 12:19:50 | Archivo config existente, comprobando formato
+2025/05/15 12:19:50 | Checking... 17:00
+2025/05/15 12:20:20 | Archivo config existente, comprobando formato
+2025/05/15 12:20:20 | Checking... 17:00
+2025/05/15 12:20:50 | Archivo config existente, comprobando formato
+2025/05/15 12:20:50 | Checking... 17:00
+2025/05/15 12:21:20 | Archivo config existente, comprobando formato
+2025/05/15 12:21:20 | Checking... 17:00
+2025/05/15 12:21:50 | Archivo config existente, comprobando formato
+2025/05/15 12:21:50 | Checking... 17:00
+2025/05/15 12:22:20 | Archivo config existente, comprobando formato
+2025/05/15 12:22:20 | Checking... 17:00
+2025/05/15 12:22:50 | Archivo config existente, comprobando formato
+2025/05/15 12:22:50 | Checking... 17:00
+2025/05/15 12:23:20 | Archivo config existente, comprobando formato
+2025/05/15 12:23:20 | Checking... 17:00
+2025/05/15 12:23:50 | Archivo config existente, comprobando formato
+2025/05/15 12:23:50 | Checking... 17:00
+2025/05/15 12:24:20 | Archivo config existente, comprobando formato
+2025/05/15 12:24:20 | Checking... 17:00
+2025/05/15 12:24:50 | Archivo config existente, comprobando formato
+2025/05/15 12:24:50 | Checking... 17:00
+2025/05/15 12:25:20 | Archivo config existente, comprobando formato
+2025/05/15 12:25:20 | Checking... 17:00
+2025/05/15 12:25:50 | Archivo config existente, comprobando formato
+2025/05/15 12:25:50 | Checking... 17:00
+2025/05/15 12:26:25 | Archivo config existente, comprobando formato
+2025/05/15 12:26:25 |   Se añadio opcion: TIMER.HOUR = 17:00
+2025/05/15 12:26:25 | Se ha creado el archivo config
+2025/05/15 12:26:25 | Tarea programada para las 17:00
+2025/05/15 12:26:25 | Checking... 17:00
+2025/05/15 12:26:54 | Archivo config existente, comprobando formato
+2025/05/15 12:26:54 | Tarea programada para las 17:00
+2025/05/15 12:26:54 | Checking... 17:00
+2025/05/15 12:30:22 | Archivo config existente, comprobando formato
+2025/05/15 12:30:22 | Tarea programada para las 17:00
+2025/05/15 12:30:22 | Checking... 17:00
+2025/05/15 12:30:30 | Archivo config existente, comprobando formato
+2025/05/15 12:30:30 |   Se añadio opcion: TIMER.HOUR = 17:00
+2025/05/15 12:30:30 | Se ha creado el archivo config
+2025/05/15 12:30:30 | Tarea programada para las 17:00
+2025/05/15 12:30:30 | Checking... 17:00
+2025/05/15 12:31:00 | Archivo config existente, comprobando formato
+2025/05/15 12:31:00 | Checking... 17:00
+2025/05/15 12:31:30 | Archivo config existente, comprobando formato
+2025/05/15 12:31:30 | Checking... 17:00

@@ -74,7 +74,7 @@
  [],
  False,
  False,
- 1747144988,
+ 1747306400,
  [('run.exe',
    'C:\\Users\\usuario\\Desktop\\sync_stock_A3ERP\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],

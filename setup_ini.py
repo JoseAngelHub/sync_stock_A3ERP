@@ -36,6 +36,19 @@ def create_ini():
     with open('config.ini', 'w') as configfile:
         config.write(configfile)
         J.info("Se ha creado el archivo config")
+    
+    config_path = "config.ini"
+
+    # Leemos el contenido existente
+    with open(config_path, "r") as f:
+        lines = f.readlines()
+
+    # Insertamos un comentario donde queramos, por ejemplo al inicio
+    lines.insert(13, "# ESPECIFICAR AL LADO DEL TIPO LA RUTA, ej: SFTP/Users/usuario\n")
+
+    # Escribimos de nuevo el archivo
+    with open(config_path, "w") as f:
+        f.writelines(lines)
 
 DEFAULT_CONFIG = {
     'DATABASE': {
@@ -88,8 +101,22 @@ def update_ini():
 
     # Solo escribe si se hicieron cambios
     if modified:
-        with open(config_path, 'w') as configfile:
+    # Escribimos el config.ini normalmente
+        with open('config.ini', 'w') as configfile:
             config.write(configfile)
-        J.info("Archivo 'config.ini' actualizado.")
-    else:
-        J.info("No hubo cambios: todos los campos existen.")
+            J.info("Se ha creado el archivo config")
+
+        # Ahora agregamos el comentario específico antes de SERVER_TYPE en [FTP]
+        with open('config.ini', 'r') as f:
+            lines = f.readlines()
+
+        nuevas_lineas = []
+        for i, line in enumerate(lines):
+            # Detectar la línea exacta de SERVER_TYPE
+            if line.strip().lower().startswith("server_type") and "[FTP]" in "".join(lines[max(0, i-5):i]).upper():
+                # Insertar comentario antes de esa línea
+                nuevas_lineas.append("# ESPECIFICAR AL LADO DEL TIPO LA RUTA, ej: SFTP/Users/usuario\n")
+            nuevas_lineas.append(line)
+
+        with open('config.ini', 'w') as f:
+            f.writelines(nuevas_lineas)
