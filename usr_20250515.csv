@@ -1,0 +1,395 @@
+CODART,EAN,DESCART,PRECIO,STOCK
+              1,  2001000989188,Bicicleta carrera,612.25,-907.0
+              1,  7326481634774,Bicicleta carrera,612.25,-907.0
+              1,  2001000989188,Bicicleta carrera,581.64,-907.0
+              1,  7326481634774,Bicicleta carrera,581.64,-907.0
+              1,  2001000989188,Bicicleta carrera,551.02,-907.0
+              1,  7326481634774,Bicicleta carrera,551.02,-907.0
+              2,  2091817654232,Bicicleta mountain infantil,129.99,-908.0
+              2,  2091817654232,Bicicleta mountain infantil,123.49,-908.0
+              2,  2091817654232,Bicicleta mountain infantil,116.99,-908.0
+              3,  1291819028272,Bicicleta dual,349.99,-14.0
+              3,  1291819028272,Bicicleta dual,332.49,-14.0
+              3,  1291819028272,Bicicleta dual,314.99,-14.0
+              4,  1201901981811,Bicicleta carrera mod. A,299.99,-252.0
+              4,  1201901981811,Bicicleta carrera mod. A,284.99,-252.0
+              4,  1201901981811,Bicicleta carrera mod. A,269.99,-252.0
+              5,  6789432185045,Bicicleta carrera mod. B,549.99,-289.0
+              5,  6789432185045,Bicicleta carrera mod. B,522.49,-289.0
+              5,  6789432185045,Bicicleta carrera mod. B,494.99,-289.0
+              6,  5192816205139,Bicicleta infantil,49.99,11.0
+              6,  5192816205139,Bicicleta infantil,47.49,11.0
+              6,  5192816205139,Bicicleta infantil,44.99,11.0
+              7,  1817263451871,Mountain bike,59.99,-557.0
+              7,  1817263451871,Mountain bike,56.99,-557.0
+              7,  1817263451871,Mountain bike,53.99,-557.0
+              8,  8191816274654,Bicicleta paseo,179.99,-200.0
+              8,  8191816274654,Bicicleta paseo,170.99,-200.0
+              8,  8191816274654,Bicicleta paseo,161.99,-200.0
+              9,  1829175543896,Bicicleta tres asientos,449.99,-32.0
+              9,  1829175543896,Bicicleta tres asientos,427.49,-32.0
+              9,  1829175543896,Bicicleta tres asientos,404.99,-32.0
+             10,  1111989756723,Monociclo,239.99,-105.0
+             10,  1111989756723,Monociclo,227.99,-105.0
+             10,  1111989756723,Monociclo,215.99,-105.0
+             11,  6667895674521,Bicicleta carrera modelo C,599.99,-304.0
+             11,  6667895674521,Bicicleta carrera modelo C,569.99,-304.0
+             11,  6667895674521,Bicicleta carrera modelo C,539.99,-304.0
+             12,  4546776783212,Asiento para bicicleta velocidad,47.56,-195.0
+             12,  4546776783212,Asiento para bicicleta velocidad,45.18,-195.0
+             12,  4546776783212,Asiento para bicicleta velocidad,42.8,-195.0
+             13,  1817152762521,Casco bicicleta,47.99,-1118.0
+             13,  1817152762521,Casco bicicleta,45.59,-1118.0
+             13,  1817152762521,Casco bicicleta,43.19,-1118.0
+             14,  6536251651554,Empuñadura,70.12,-483.0
+             14,  6536251651554,Empuñadura,66.61,-483.0
+             14,  6536251651554,Empuñadura,63.11,-483.0
+             15,  7162767363736,Gafas,54.23,-1908.0
+             15,  7162767363736,Gafas,51.52,-1908.0
+             15,  7162767363736,Gafas,48.81,-1908.0
+             16,  1238172625625,Manetas anatómicas,36.78,0.0
+             16,  1238172625625,Manetas anatómicas,34.94,0.0
+             16,  1238172625625,Manetas anatómicas,33.1,0.0
+             17,  6171625252526,Cuadro de aluminio,158.34,0.0
+             17,  6171625252526,Cuadro de aluminio,150.42,0.0
+             17,  6171625252526,Cuadro de aluminio,142.51,0.0
+             18,  6237216127168,Rueda,27.34,0.0
+             18,  6237216127168,Rueda,25.97,0.0
+             18,  6237216127168,Rueda,24.61,0.0
+             19,  8127265252226,Cubierta,5.23,0.0
+             19,  8127265252226,Cubierta,4.97,0.0
+             19,  8127265252226,Cubierta,4.71,0.0
+             20,  7826241431112,Llanta,12.12,0.0
+             20,  7826241431112,Llanta,11.51,0.0
+             20,  7826241431112,Llanta,10.91,0.0
+             21,  1237978129344,Caja embalaje,0.26,0.0
+             21,  1237978129344,Caja embalaje,0.25,0.0
+             21,  1237978129344,Caja embalaje,0.23,0.0
+             22,  6166666616666,Cámara,4.51,0.0
+             22,  6166666616666,Cámara,4.28,0.0
+             22,  6166666616666,Cámara,4.06,0.0
+             23,  7771666155566,Manillar,34.23,0.0
+             23,  7771666155566,Manillar,32.52,0.0
+             23,  7771666155566,Manillar,30.81,0.0
+             24,  6156154414416,Sillín,24.12,0.0
+             24,  6156154414416,Sillín,22.91,0.0
+             24,  6156154414416,Sillín,21.71,0.0
+             25,  1111223145115,Pedales,39.99,0.0
+             25,  1111223145115,Pedales,37.99,0.0
+             25,  1111223145115,Pedales,35.99,0.0
+             26,  6154151441442,Cadena,8.12,0.0
+             26,  6154151441442,Cadena,7.71,0.0
+             26,  6154151441442,Cadena,7.31,0.0
+             27,  7161551515511,Frenos,55.23,0.0
+             27,  7161551515511,Frenos,52.47,0.0
+             27,  7161551515511,Frenos,49.71,0.0
+             28,  1727615154117,Barniz,12.0,0.0
+             28,  1727615154117,Barniz,11.4,0.0
+             28,  1727615154117,Barniz,10.8,0.0
+             29,,Cuadro de aluminio mod. A,158.34,0.0
+             29,,Cuadro de aluminio mod. A,150.42,0.0
+             29,,Cuadro de aluminio mod. A,142.51,0.0
+             30,,Cuadro de aluminio mod. B,158.34,0.0
+             30,,Cuadro de aluminio mod. B,150.42,0.0
+             30,,Cuadro de aluminio mod. B,142.51,0.0
+             31,,Cuadro de aluminio mod. C,158.34,0.0
+             31,,Cuadro de aluminio mod. C,150.42,0.0
+             31,,Cuadro de aluminio mod. C,142.51,0.0
+             33,  8123746812361,Pintura metálica,25.45,0.0
+             33,  8123746812361,Pintura metálica,24.18,0.0
+             33,  8123746812361,Pintura metálica,22.91,0.0
+             34,,Bidón agua,0.87,0.0
+             34,,Bidón agua,0.83,0.0
+             34,,Bidón agua,0.78,0.0
+             35,,Soporte para bidones de agua,0.95,0.0
+             35,,Soporte para bidones de agua,0.9,0.0
+             35,,Soporte para bidones de agua,0.86,0.0
+             36,,Reflector bicicleta trasero,0.24,0.0
+             36,,Reflector bicicleta trasero,0.23,0.0
+             36,,Reflector bicicleta trasero,0.22,0.0
+             37,,Kit obsequio bicicleta carrera/ocio,0.0,0.0
+             37,,Kit obsequio bicicleta carrera/ocio,0.0,0.0
+             37,,Kit obsequio bicicleta carrera/ocio,0.0,0.0
+             38,,Cuadro de aluminio pulido,158.34,0.0
+             38,,Cuadro de aluminio pulido,150.42,0.0
+             38,,Cuadro de aluminio pulido,142.51,0.0
+             39,,Cuadro de aluminio pintado,158.34,0.0
+             39,,Cuadro de aluminio pintado,150.42,0.0
+             39,,Cuadro de aluminio pintado,142.51,0.0
+             40,,Cuadro de aluminio original,158.34,0.0
+             40,,Cuadro de aluminio original,150.42,0.0
+             40,,Cuadro de aluminio original,142.51,0.0
+             41,,Cuadro de aluminio pulido mod. A,158.34,0.0
+             41,,Cuadro de aluminio pulido mod. A,150.42,0.0
+             41,,Cuadro de aluminio pulido mod. A,142.51,0.0
+             42,,Cuadro de aluminio pintado mod. A,158.34,0.0
+             42,,Cuadro de aluminio pintado mod. A,150.42,0.0
+             42,,Cuadro de aluminio pintado mod. A,142.51,0.0
+             43,,Cuadro de aluminio original mod. A,158.34,0.0
+             43,,Cuadro de aluminio original mod. A,150.42,0.0
+             43,,Cuadro de aluminio original mod. A,142.51,0.0
+             44,,Cuadro de aluminio pulido mod. B,158.34,0.0
+             44,,Cuadro de aluminio pulido mod. B,150.42,0.0
+             44,,Cuadro de aluminio pulido mod. B,142.51,0.0
+             45,,Cuadro de aluminio pulido mod. C,158.34,0.0
+             45,,Cuadro de aluminio pulido mod. C,150.42,0.0
+             45,,Cuadro de aluminio pulido mod. C,142.51,0.0
+             46,,Cuadro de aluminio pintado mod. B,158.34,0.0
+             46,,Cuadro de aluminio pintado mod. B,150.42,0.0
+             46,,Cuadro de aluminio pintado mod. B,142.51,0.0
+             47,,Cuadro de aluminio pintado mod. C,158.34,0.0
+             47,,Cuadro de aluminio pintado mod. C,150.42,0.0
+             47,,Cuadro de aluminio pintado mod. C,142.51,0.0
+             48,,Cuadro de aluminio original mod. B,158.34,0.0
+             48,,Cuadro de aluminio original mod. B,150.42,0.0
+             48,,Cuadro de aluminio original mod. B,142.51,0.0
+             49,,Cuadro de aluminio original mod. C,158.34,0.0
+             49,,Cuadro de aluminio original mod. C,150.42,0.0
+             49,,Cuadro de aluminio original mod. C,142.51,0.0
+L1,,Grasa para frenos bicicleta Motorex,12.23,0.0
+L2,,Líquidos de limpieza para bicicleta,10.36,0.0
+L3,,Toallitas limpieza bicicleta,6.01,0.0
+N1,,Bicicleta serie Colnago Crono,1300.0,0.0
+N2,,Bicicleta serie de montaña,1100.0,0.0
+P1,,Retrovisor Bicicleta,56.23,0.0
+P2,,Pintura para retrovisor,12.2,0.0
+P3,,Varillas,1.2,0.0
+P4,,Espejo retrovisor,10.12,0.0
+P5,,Cola de contacto,0.6,0.0
+P6,,Luz de bicicleta,10.2,0.0
+T1,T138AM,Camiseta de la Vuelta a España,12.0,0.0
+T1,T138AZ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T138BL,Camiseta de la Vuelta a España,12.0,0.0
+T1,T138NE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T138RJ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T138RO,Camiseta de la Vuelta a España,12.0,0.0
+T1,T152RO,Camiseta de la Vuelta a España,12.0,0.0
+T1,T152VE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T150VE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T152AM,Camiseta de la Vuelta a España,12.0,0.0
+T1,T152AZ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T152BL,Camiseta de la Vuelta a España,12.0,0.0
+T1,T152NE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T152RJ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T150AM,Camiseta de la Vuelta a España,12.0,0.0
+T1,T150AZ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T150BL,Camiseta de la Vuelta a España,12.0,0.0
+T1,T150NE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T150RJ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T150RO,Camiseta de la Vuelta a España,12.0,0.0
+T1,T148AZ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T148BL,Camiseta de la Vuelta a España,12.0,0.0
+T1,T148NE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T148RJ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T148RO,Camiseta de la Vuelta a España,12.0,0.0
+T1,T148VE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T146BL,Camiseta de la Vuelta a España,12.0,0.0
+T1,T146NE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T146RJ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T146RO,Camiseta de la Vuelta a España,12.0,0.0
+T1,T146VE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T148AM,Camiseta de la Vuelta a España,12.0,0.0
+T1,T144NE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T144RJ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T144RO,Camiseta de la Vuelta a España,12.0,0.0
+T1,T144VE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T146AM,Camiseta de la Vuelta a España,12.0,0.0
+T1,T146AZ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T142RJ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T142RO,Camiseta de la Vuelta a España,12.0,0.0
+T1,T142VE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T144AM,Camiseta de la Vuelta a España,12.0,0.0
+T1,T144AZ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T144BL,Camiseta de la Vuelta a España,12.0,0.0
+T1,T140RO,Camiseta de la Vuelta a España,12.0,0.0
+T1,T140VE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T142AM,Camiseta de la Vuelta a España,12.0,0.0
+T1,T142AZ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T142BL,Camiseta de la Vuelta a España,12.0,0.0
+T1,T142NE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T138VE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T140AM,Camiseta de la Vuelta a España,12.0,0.0
+T1,T140AZ,Camiseta de la Vuelta a España,12.0,0.0
+T1,T140BL,Camiseta de la Vuelta a España,12.0,0.0
+T1,T140NE,Camiseta de la Vuelta a España,12.0,0.0
+T1,T140RJ,Camiseta de la Vuelta a España,12.0,0.0
+T2,T2LBE,Gorra de ciclismo,4.5,0.0
+T2,T2LNE,Gorra de ciclismo,4.5,0.0
+T2,T2SBE,Gorra de ciclismo,4.5,0.0
+T2,T2SNE,Gorra de ciclismo,4.5,0.0
+T2,T2XLBE,Gorra de ciclismo,4.5,0.0
+T2,T2XLNE,Gorra de ciclismo,4.5,0.0
+T3,T338AM,Camiseta de verano,10.32,0.0
+T3,T338AZ,Camiseta de verano,10.32,0.0
+T3,T338BL,Camiseta de verano,10.32,0.0
+T3,T338NE,Camiseta de verano,10.32,0.0
+T3,T338RJ,Camiseta de verano,10.32,0.0
+T3,T338RO,Camiseta de verano,10.32,0.0
+T3,T352RO,Camiseta de verano,10.32,0.0
+T3,T352VE,Camiseta de verano,10.32,0.0
+T3,T350VE,Camiseta de verano,10.32,0.0
+T3,T352AM,Camiseta de verano,10.32,0.0
+T3,T352AZ,Camiseta de verano,10.32,0.0
+T3,T352BL,Camiseta de verano,10.32,0.0
+T3,T352NE,Camiseta de verano,10.32,0.0
+T3,T352RJ,Camiseta de verano,10.32,0.0
+T3,T350AM,Camiseta de verano,10.32,0.0
+T3,T350AZ,Camiseta de verano,10.32,0.0
+T3,T350BL,Camiseta de verano,10.32,0.0
+T3,T350NE,Camiseta de verano,10.32,0.0
+T3,T350RJ,Camiseta de verano,10.32,0.0
+T3,T350RO,Camiseta de verano,10.32,0.0
+T3,T348AZ,Camiseta de verano,10.32,0.0
+T3,T348BL,Camiseta de verano,10.32,0.0
+T3,T348NE,Camiseta de verano,10.32,0.0
+T3,T348RJ,Camiseta de verano,10.32,0.0
+T3,T348RO,Camiseta de verano,10.32,0.0
+T3,T348VE,Camiseta de verano,10.32,0.0
+T3,T346BL,Camiseta de verano,10.32,0.0
+T3,T346NE,Camiseta de verano,10.32,0.0
+T3,T346RJ,Camiseta de verano,10.32,0.0
+T3,T346RO,Camiseta de verano,10.32,0.0
+T3,T346VE,Camiseta de verano,10.32,0.0
+T3,T348AM,Camiseta de verano,10.32,0.0
+T3,T344NE,Camiseta de verano,10.32,0.0
+T3,T344RJ,Camiseta de verano,10.32,0.0
+T3,T344RO,Camiseta de verano,10.32,0.0
+T3,T344VE,Camiseta de verano,10.32,0.0
+T3,T346AM,Camiseta de verano,10.32,0.0
+T3,T346AZ,Camiseta de verano,10.32,0.0
+T3,T342RJ,Camiseta de verano,10.32,0.0
+T3,T342RO,Camiseta de verano,10.32,0.0
+T3,T342VE,Camiseta de verano,10.32,0.0
+T3,T344AM,Camiseta de verano,10.32,0.0
+T3,T344AZ,Camiseta de verano,10.32,0.0
+T3,T344BL,Camiseta de verano,10.32,0.0
+T3,T340RO,Camiseta de verano,10.32,0.0
+T3,T340VE,Camiseta de verano,10.32,0.0
+T3,T342AM,Camiseta de verano,10.32,0.0
+T3,T342AZ,Camiseta de verano,10.32,0.0
+T3,T342BL,Camiseta de verano,10.32,0.0
+T3,T342NE,Camiseta de verano,10.32,0.0
+T3,T338VE,Camiseta de verano,10.32,0.0
+T3,T340AM,Camiseta de verano,10.32,0.0
+T3,T340AZ,Camiseta de verano,10.32,0.0
+T3,T340BL,Camiseta de verano,10.32,0.0
+T3,T340NE,Camiseta de verano,10.32,0.0
+T3,T340RJ,Camiseta de verano,10.32,0.0
+T4,T438AM,Camiseta vaquera,20.23,0.0
+T4,T438AZ,Camiseta vaquera,20.23,0.0
+T4,T438BL,Camiseta vaquera,20.23,0.0
+T4,T438NE,Camiseta vaquera,20.23,0.0
+T4,T438RJ,Camiseta vaquera,20.23,0.0
+T4,T452RJ,Camiseta vaquera,20.23,0.0
+T4,T452RO,Camiseta vaquera,20.23,0.0
+T4,T452VE,Camiseta vaquera,20.23,0.0
+T4,T450RO,Camiseta vaquera,20.23,0.0
+T4,T450VE,Camiseta vaquera,20.23,0.0
+T4,T452AM,Camiseta vaquera,20.23,0.0
+T4,T452AZ,Camiseta vaquera,20.23,0.0
+T4,T452BL,Camiseta vaquera,20.23,0.0
+T4,T452NE,Camiseta vaquera,20.23,0.0
+T4,T448VE,Camiseta vaquera,20.23,0.0
+T4,T450AM,Camiseta vaquera,20.23,0.0
+T4,T450AZ,Camiseta vaquera,20.23,0.0
+T4,T450BL,Camiseta vaquera,20.23,0.0
+T4,T450NE,Camiseta vaquera,20.23,0.0
+T4,T450RJ,Camiseta vaquera,20.23,0.0
+T4,T448AM,Camiseta vaquera,20.23,0.0
+T4,T448AZ,Camiseta vaquera,20.23,0.0
+T4,T448BL,Camiseta vaquera,20.23,0.0
+T4,T448NE,Camiseta vaquera,20.23,0.0
+T4,T448RJ,Camiseta vaquera,20.23,0.0
+T4,T448RO,Camiseta vaquera,20.23,0.0
+T4,T446AZ,Camiseta vaquera,20.23,0.0
+T4,T446BL,Camiseta vaquera,20.23,0.0
+T4,T446NE,Camiseta vaquera,20.23,0.0
+T4,T446RJ,Camiseta vaquera,20.23,0.0
+T4,T446RO,Camiseta vaquera,20.23,0.0
+T4,T446VE,Camiseta vaquera,20.23,0.0
+T4,T444BL,Camiseta vaquera,20.23,0.0
+T4,T444NE,Camiseta vaquera,20.23,0.0
+T4,T444RJ,Camiseta vaquera,20.23,0.0
+T4,T444RO,Camiseta vaquera,20.23,0.0
+T4,T444VE,Camiseta vaquera,20.23,0.0
+T4,T446AM,Camiseta vaquera,20.23,0.0
+T4,T442NE,Camiseta vaquera,20.23,0.0
+T4,T442RJ,Camiseta vaquera,20.23,0.0
+T4,T442RO,Camiseta vaquera,20.23,0.0
+T4,T442VE,Camiseta vaquera,20.23,0.0
+T4,T444AM,Camiseta vaquera,20.23,0.0
+T4,T444AZ,Camiseta vaquera,20.23,0.0
+T4,T440RJ,Camiseta vaquera,20.23,0.0
+T4,T440RO,Camiseta vaquera,20.23,0.0
+T4,T440VE,Camiseta vaquera,20.23,0.0
+T4,T442AM,Camiseta vaquera,20.23,0.0
+T4,T442AZ,Camiseta vaquera,20.23,0.0
+T4,T442BL,Camiseta vaquera,20.23,0.0
+T4,T438RO,Camiseta vaquera,20.23,0.0
+T4,T438VE,Camiseta vaquera,20.23,0.0
+T4,T440AM,Camiseta vaquera,20.23,0.0
+T4,T440AZ,Camiseta vaquera,20.23,0.0
+T4,T440BL,Camiseta vaquera,20.23,0.0
+T4,T440NE,Camiseta vaquera,20.23,0.0
+T5,T5LBE,Gorra vaquera,12.0,0.0
+T5,T5LNE,Gorra vaquera,12.0,0.0
+T5,T5SBE,Gorra vaquera,12.0,0.0
+T5,T5SNE,Gorra vaquera,12.0,0.0
+T5,T5XLBE,Gorra vaquera,12.0,0.0
+T5,T5XLNE,Gorra vaquera,12.0,0.0
+T6,T638AM,Pantalones ciclista,18.23,0.0
+T6,T638AZ,Pantalones ciclista,18.23,0.0
+T6,T638BL,Pantalones ciclista,18.23,0.0
+T6,T638NE,Pantalones ciclista,18.23,0.0
+T6,T638RJ,Pantalones ciclista,18.23,0.0
+T6,T638RO,Pantalones ciclista,18.23,0.0
+T6,T652RO,Pantalones ciclista,18.23,0.0
+T6,T652VE,Pantalones ciclista,18.23,0.0
+T6,T650VE,Pantalones ciclista,18.23,0.0
+T6,T652AM,Pantalones ciclista,18.23,0.0
+T6,T652AZ,Pantalones ciclista,18.23,0.0
+T6,T652BL,Pantalones ciclista,18.23,0.0
+T6,T652NE,Pantalones ciclista,18.23,0.0
+T6,T652RJ,Pantalones ciclista,18.23,0.0
+T6,T650AM,Pantalones ciclista,18.23,0.0
+T6,T650AZ,Pantalones ciclista,18.23,0.0
+T6,T650BL,Pantalones ciclista,18.23,0.0
+T6,T650NE,Pantalones ciclista,18.23,0.0
+T6,T650RJ,Pantalones ciclista,18.23,0.0
+T6,T650RO,Pantalones ciclista,18.23,0.0
+T6,T648AZ,Pantalones ciclista,18.23,0.0
+T6,T648BL,Pantalones ciclista,18.23,0.0
+T6,T648NE,Pantalones ciclista,18.23,0.0
+T6,T648RJ,Pantalones ciclista,18.23,0.0
+T6,T648RO,Pantalones ciclista,18.23,0.0
+T6,T648VE,Pantalones ciclista,18.23,0.0
+T6,T646BL,Pantalones ciclista,18.23,0.0
+T6,T646NE,Pantalones ciclista,18.23,0.0
+T6,T646RJ,Pantalones ciclista,18.23,0.0
+T6,T646RO,Pantalones ciclista,18.23,0.0
+T6,T646VE,Pantalones ciclista,18.23,0.0
+T6,T648AM,Pantalones ciclista,18.23,0.0
+T6,T644NE,Pantalones ciclista,18.23,0.0
+T6,T644RJ,Pantalones ciclista,18.23,0.0
+T6,T644RO,Pantalones ciclista,18.23,0.0
+T6,T644VE,Pantalones ciclista,18.23,0.0
+T6,T646AM,Pantalones ciclista,18.23,0.0
+T6,T646AZ,Pantalones ciclista,18.23,0.0
+T6,T642RJ,Pantalones ciclista,18.23,0.0
+T6,T642RO,Pantalones ciclista,18.23,0.0
+T6,T642VE,Pantalones ciclista,18.23,0.0
+T6,T644AM,Pantalones ciclista,18.23,0.0
+T6,T644AZ,Pantalones ciclista,18.23,0.0
+T6,T644BL,Pantalones ciclista,18.23,0.0
+T6,T640RO,Pantalones ciclista,18.23,0.0
+T6,T640VE,Pantalones ciclista,18.23,0.0
+T6,T642AM,Pantalones ciclista,18.23,0.0
+T6,T642AZ,Pantalones ciclista,18.23,0.0
+T6,T642BL,Pantalones ciclista,18.23,0.0
+T6,T642NE,Pantalones ciclista,18.23,0.0
+T6,T638VE,Pantalones ciclista,18.23,0.0
+T6,T640AM,Pantalones ciclista,18.23,0.0
+T6,T640AZ,Pantalones ciclista,18.23,0.0
+T6,T640BL,Pantalones ciclista,18.23,0.0
+T6,T640NE,Pantalones ciclista,18.23,0.0
+T6,T640RJ,Pantalones ciclista,18.23,0.0

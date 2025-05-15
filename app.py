@@ -60,27 +60,37 @@ def upload(file, config):
     password = ftp_conf['PASSWORD_FTP']
     port = int(ftp_conf['PORT_FTP'])
 
-    if server_type == 'SFTP':
+    if 'SFTP' in server_type:
         J.info(f'Conectando via SFTP a {host}...')
         transport = paramiko.Transport((host, port))
         transport.connect(username=user, password=password)
         sftp = paramiko.SFTPClient.from_transport(transport)
-        sftp.put(file, f'./{file}')
+        if '/' in server_type:
+            ruta = server_type[4:len(server_type)]
+            J.info(f'Buscando la ruta {ruta}')
+            sftp.put(file, f'{ruta}./{file}')
+        else:
+            sftp.put(file, f'./{file}')
         sftp.close()
         transport.close()
         J.info(f'Archivo subido via SFTP correctamente')
-    elif server_type == 'FTP':
+    elif 'FTP' in server_type:
         J.info(f'Conectando via FTP a {host}...')
         with ftplib.FTP() as ftp:
-            ftp.connect(host, port)
-            ftp.login(user, password)
             with open(file, 'rb') as f:
-                ftp.storbinary(f'STOR {file}', f)
+                ftp.connect(host, port)
+                ftp.login(user, password)
+                if '/' in server_type:
+                    ruta = server_type[3:len(server_type)]
+                    J.info(f'Buscando la ruta {ruta}')
+                    ftp_file = ruta+'/'+file
+                    ftp.storbinary(f'STOR {ftp_file}', f)
+                else:
+                        ftp.storbinary(f'STOR {file}', f)
                 J.info(f'Archivo subido via FTP correctamente')
     else:
         raise ValueError('Tipo de servidor no soportado')
-    
-    J.info(f'Archivo {file} subido correctamente.')
+
 
 # Funcion que coordina todo el proceso: 
 # 1) leer configuracion, 
@@ -89,12 +99,14 @@ def upload(file, config):
 # 4) subir fichero
 def sync_job():
     try:
-        J.info('--- Inicio del proceso de sincronizacion ---')
+        # J.info('--- Inicio del proceso de sincronizacion ---')
         config = read_config()
         df = get_info(config)
         file = generate(df, config)
         upload(file, config)
-        J.info('--- Sincronizacion completada correctamente ---')
+        # J.info('--- Sincronizacion completada correctamente ---')
+    except ftplib.error_perm as e:
+        J.error(f'Error en la ruta especificada por el usuario')
     except Exception as e:
         J.error(f'Error en el proceso: {e}')
 
@@ -143,18 +155,15 @@ def main():
                 if hour != last_hour:
                     if job_ref:
                         schedule.cancel_job(job_ref)
-                        J.info(f'Tarea anterior cancelada (hora anterior: {last_hour})')
 
                     job_ref = schedule.every().day.at(hour).do(scheduled_task)
                     last_hour = hour
-                    J.info(f'Tarea programada para las {hour} segun config.ini')
-
         except Exception as e:
             J.error(f'Error al manejar cambios en config.ini: {e}')
 
         schedule.run_pending()
-        time.sleep(10)
-        J.info(f'Tarea programada para las {hour} segun config.ini, esperando...')
+        time.sleep(30)
+        J.info(f'Checking... {hour}')
 
 if __name__ == '__main__':
     main()
