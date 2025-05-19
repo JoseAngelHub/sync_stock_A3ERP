@@ -1,0 +1,644 @@
+2025/05/16 08:25:27 | Archivo config existente, comprobando formato
+2025/05/16 08:25:27 | Tarea programada para las 17:00
+2025/05/16 08:25:27 | Checking... 17:00
+2025/05/16 08:25:57 | Archivo config existente, comprobando formato
+2025/05/16 08:25:57 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 08:25:57 | Tarea programada para las 08:26
+2025/05/16 08:25:57 | Checking... 08:26
+2025/05/16 08:26:27 | Archivo config existente, comprobando formato
+2025/05/16 08:26:27 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 08:26:27 | Tarea programada para las 08:27
+2025/05/16 08:26:27 | Checking... 08:27
+2025/05/16 08:26:57 | Archivo config existente, comprobando formato
+2025/05/16 08:26:57 | Checking... 08:27
+2025/05/16 08:27:27 | Archivo config existente, comprobando formato
+2025/05/16 08:27:27 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/16 08:27:27 | Archivo config existente, comprobando formato
+2025/05/16 08:27:27 | Archivo config existente, comprobando formato
+2025/05/16 08:27:27 | Conectando a la base de datos...
+2025/05/16 08:27:27 | 394 registros recuperados de la base de datos.
+2025/05/16 08:27:28 | Fichero generado: prueba_20250516.xlsx
+2025/05/16 08:27:28 | Conectando via SFTP a 192.168.200.135...
+2025/05/16 08:27:28 | starting thread (client mode): 0x1f404980
+2025/05/16 08:27:28 | Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025/05/16 08:27:28 | Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_8.6
+2025/05/16 08:27:28 | Connected (version 2.0, client OpenSSH_for_Windows_8.6)
+2025/05/16 08:27:28 | === Key exchange possibilities ===
+2025/05/16 08:27:28 | kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2025/05/16 08:27:28 | server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025/05/16 08:27:28 | client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 08:27:28 | server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 08:27:28 | client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 08:27:28 | server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 08:27:28 | client compress: none, zlib@openssh.com
+2025/05/16 08:27:28 | server compress: none, zlib@openssh.com
+2025/05/16 08:27:28 | client lang: <none>
+2025/05/16 08:27:28 | server lang: <none>
+2025/05/16 08:27:28 | kex follows: False
+2025/05/16 08:27:28 | === Key exchange agreements ===
+2025/05/16 08:27:28 | Kex: curve25519-sha256@libssh.org
+2025/05/16 08:27:28 | HostKey: ssh-ed25519
+2025/05/16 08:27:28 | Cipher: aes128-ctr
+2025/05/16 08:27:28 | MAC: hmac-sha2-256
+2025/05/16 08:27:28 | Compression: none
+2025/05/16 08:27:28 | === End of kex handshake ===
+2025/05/16 08:27:28 | kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025/05/16 08:27:28 | Switch to new keys ...
+2025/05/16 08:27:28 | Attempting password auth...
+2025/05/16 08:27:28 | Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025/05/16 08:27:28 | userauth is OK
+2025/05/16 08:27:28 | Authentication (password) successful!
+2025/05/16 08:27:28 | [chan 0] Max packet in: 32768 bytes
+2025/05/16 08:27:28 | Received global request "hostkeys-00@openssh.com"
+2025/05/16 08:27:28 | Rejecting "hostkeys-00@openssh.com" global request from server.
+2025/05/16 08:27:28 | [chan 0] Max packet out: 32768 bytes
+2025/05/16 08:27:28 | Secsh channel 0 opened.
+2025/05/16 08:27:28 | [chan 0] Sesch channel 0 request ok
+2025/05/16 08:27:28 | [chan 0] Opened sftp connection (server version 3)
+2025/05/16 08:27:28 | Buscando la ruta /users/usuario/Desktop
+2025/05/16 08:27:29 | [chan 0] open(b'/users/usuario/Desktop/prueba_20250516.xlsx', 'wb')
+2025/05/16 08:27:29 | [chan 0] open(b'/users/usuario/Desktop/prueba_20250516.xlsx', 'wb') -> 00000000
+2025/05/16 08:27:29 | [chan 0] close(00000000)
+2025/05/16 08:27:29 | [chan 0] stat(b'/users/usuario/Desktop/prueba_20250516.xlsx')
+2025/05/16 08:27:29 | [chan 0] sftp session closed.
+2025/05/16 08:27:29 | [chan 0] EOF sent (0)
+2025/05/16 08:27:29 | EOF in transport thread
+2025/05/16 08:27:29 | Archivo subido via SFTP correctamente
+2025/05/16 08:27:29 | Checking... 08:27
+2025/05/16 08:27:59 | Archivo config existente, comprobando formato
+2025/05/16 08:27:59 | Checking... 08:27
+2025/05/16 08:28:29 | Archivo config existente, comprobando formato
+2025/05/16 08:28:29 | Checking... 08:27
+2025/05/16 08:28:59 | Archivo config existente, comprobando formato
+2025/05/16 08:28:59 | Checking... 08:27
+2025/05/16 08:44:49 | Archivo config existente, comprobando formato
+2025/05/16 08:44:49 | Tarea programada para las 08:27
+2025/05/16 08:44:49 | Checking... 08:27
+2025/05/16 08:45:19 | Archivo config existente, comprobando formato
+2025/05/16 08:45:19 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 08:45:19 | Tarea programada para las 08:45
+2025/05/16 08:45:19 | Checking... 08:45
+2025/05/16 08:45:49 | Archivo config existente, comprobando formato
+2025/05/16 08:45:49 | Checking... 08:45
+2025/05/16 08:46:19 | Archivo config existente, comprobando formato
+2025/05/16 08:46:19 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 08:46:19 | Tarea programada para las 08:47
+2025/05/16 08:46:19 | Checking... 08:47
+2025/05/16 08:46:49 | Archivo config existente, comprobando formato
+2025/05/16 08:46:49 | Checking... 08:47
+2025/05/16 08:47:19 | Archivo config existente, comprobando formato
+2025/05/16 08:47:19 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/16 08:47:19 | Archivo config existente, comprobando formato
+2025/05/16 08:47:19 | Archivo config existente, comprobando formato
+2025/05/16 08:47:19 | Conectando a la base de datos...
+2025/05/16 08:47:19 | 394 registros recuperados de la base de datos.
+2025/05/16 08:47:19 | Fichero generado: prueba_20250516.xlsx
+2025/05/16 08:47:19 | Conectando via SFTP a 192.168.200.135...
+2025/05/16 08:47:19 | starting thread (client mode): 0x137dc980
+2025/05/16 08:47:19 | Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025/05/16 08:47:20 | Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_8.6
+2025/05/16 08:47:20 | Connected (version 2.0, client OpenSSH_for_Windows_8.6)
+2025/05/16 08:47:20 | === Key exchange possibilities ===
+2025/05/16 08:47:20 | kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2025/05/16 08:47:20 | server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025/05/16 08:47:20 | client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 08:47:20 | server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 08:47:20 | client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 08:47:20 | server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 08:47:20 | client compress: none, zlib@openssh.com
+2025/05/16 08:47:20 | server compress: none, zlib@openssh.com
+2025/05/16 08:47:20 | client lang: <none>
+2025/05/16 08:47:20 | server lang: <none>
+2025/05/16 08:47:20 | kex follows: False
+2025/05/16 08:47:20 | === Key exchange agreements ===
+2025/05/16 08:47:20 | Kex: curve25519-sha256@libssh.org
+2025/05/16 08:47:20 | HostKey: ssh-ed25519
+2025/05/16 08:47:20 | Cipher: aes128-ctr
+2025/05/16 08:47:20 | MAC: hmac-sha2-256
+2025/05/16 08:47:20 | Compression: none
+2025/05/16 08:47:20 | === End of kex handshake ===
+2025/05/16 08:47:20 | kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025/05/16 08:47:20 | Switch to new keys ...
+2025/05/16 08:47:20 | Attempting password auth...
+2025/05/16 08:47:20 | Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025/05/16 08:47:20 | userauth is OK
+2025/05/16 08:47:20 | Authentication (password) successful!
+2025/05/16 08:47:20 | [chan 0] Max packet in: 32768 bytes
+2025/05/16 08:47:20 | Received global request "hostkeys-00@openssh.com"
+2025/05/16 08:47:20 | Rejecting "hostkeys-00@openssh.com" global request from server.
+2025/05/16 08:47:20 | [chan 0] Max packet out: 32768 bytes
+2025/05/16 08:47:20 | Secsh channel 0 opened.
+2025/05/16 08:47:20 | [chan 0] Sesch channel 0 request ok
+2025/05/16 08:47:20 | [chan 0] Opened sftp connection (server version 3)
+2025/05/16 08:47:20 | Buscando la ruta /users/usu
+2025/05/16 08:47:20 | [chan 0] stat(b'/users/usu')
+2025/05/16 08:47:20 | Error en la ruta especificada por el usuario [Errno 2] No such file
+2025/05/16 08:47:20 | [chan 0] sftp session closed.
+2025/05/16 08:47:20 | [chan 0] EOF sent (0)
+2025/05/16 08:47:20 | EOF in transport thread
+2025/05/16 08:47:20 | Checking... 08:47
+2025/05/16 08:48:20 | Archivo config existente, comprobando formato
+2025/05/16 08:48:20 | Tarea programada para las 08:47
+2025/05/16 08:48:20 | Checking... 08:47
+2025/05/16 08:48:50 | Archivo config existente, comprobando formato
+2025/05/16 08:48:50 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 08:48:50 | Tarea programada para las 08:49
+2025/05/16 08:48:50 | Checking... 08:49
+2025/05/16 08:49:20 | Archivo config existente, comprobando formato
+2025/05/16 08:49:20 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/16 08:49:20 | Archivo config existente, comprobando formato
+2025/05/16 08:49:20 | Archivo config existente, comprobando formato
+2025/05/16 08:49:20 | Conectando a la base de datos...
+2025/05/16 08:49:20 | 394 registros recuperados de la base de datos.
+2025/05/16 08:49:21 | Fichero generado: prueba_20250516.xlsx
+2025/05/16 08:49:21 | Conectando via SFTP a 192.168.200.135...
+2025/05/16 08:49:21 | starting thread (client mode): 0x14ab8980
+2025/05/16 08:49:21 | Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025/05/16 08:49:21 | Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_8.6
+2025/05/16 08:49:21 | Connected (version 2.0, client OpenSSH_for_Windows_8.6)
+2025/05/16 08:49:21 | === Key exchange possibilities ===
+2025/05/16 08:49:21 | kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2025/05/16 08:49:21 | server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025/05/16 08:49:21 | client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 08:49:21 | server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 08:49:21 | client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 08:49:21 | server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 08:49:21 | client compress: none, zlib@openssh.com
+2025/05/16 08:49:21 | server compress: none, zlib@openssh.com
+2025/05/16 08:49:21 | client lang: <none>
+2025/05/16 08:49:21 | server lang: <none>
+2025/05/16 08:49:21 | kex follows: False
+2025/05/16 08:49:21 | === Key exchange agreements ===
+2025/05/16 08:49:21 | Kex: curve25519-sha256@libssh.org
+2025/05/16 08:49:21 | HostKey: ssh-ed25519
+2025/05/16 08:49:21 | Cipher: aes128-ctr
+2025/05/16 08:49:21 | MAC: hmac-sha2-256
+2025/05/16 08:49:21 | Compression: none
+2025/05/16 08:49:21 | === End of kex handshake ===
+2025/05/16 08:49:21 | kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025/05/16 08:49:21 | Switch to new keys ...
+2025/05/16 08:49:21 | Attempting password auth...
+2025/05/16 08:49:21 | Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025/05/16 08:49:21 | userauth is OK
+2025/05/16 08:49:21 | Authentication (password) successful!
+2025/05/16 08:49:21 | [chan 0] Max packet in: 32768 bytes
+2025/05/16 08:49:21 | Received global request "hostkeys-00@openssh.com"
+2025/05/16 08:49:21 | Rejecting "hostkeys-00@openssh.com" global request from server.
+2025/05/16 08:49:21 | [chan 0] Max packet out: 32768 bytes
+2025/05/16 08:49:21 | Secsh channel 0 opened.
+2025/05/16 08:49:21 | [chan 0] Sesch channel 0 request ok
+2025/05/16 08:49:22 | [chan 0] Opened sftp connection (server version 3)
+2025/05/16 08:49:22 | Buscando la ruta /users/usu
+2025/05/16 08:49:22 | [chan 0] stat(b'/users/usu')
+2025/05/16 08:49:22 | Error en la ruta especificada por el usuario, se desscarga el archivo en la ruta local
+2025/05/16 08:49:22 | [chan 0] stat(b'/')
+2025/05/16 08:49:22 | [chan 0] normalize(b'/')
+2025/05/16 08:49:22 | Error en el proceso: SFTPClient.put() missing 1 required positional argument: 'remotepath'
+2025/05/16 08:49:22 | Checking... 08:49
+2025/05/16 08:49:51 | EOF in transport thread
+2025/05/16 08:50:44 | Archivo config existente, comprobando formato
+2025/05/16 08:50:44 | Tarea programada para las 08:49
+2025/05/16 08:50:44 | Checking... 08:49
+2025/05/16 08:51:14 | Archivo config existente, comprobando formato
+2025/05/16 08:51:14 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 08:51:14 | Tarea programada para las 08:51
+2025/05/16 08:51:14 | Checking... 08:51
+2025/05/16 08:51:44 | Archivo config existente, comprobando formato
+2025/05/16 08:51:44 | Checking... 08:51
+2025/05/16 08:52:14 | Archivo config existente, comprobando formato
+2025/05/16 08:52:14 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 08:52:14 | Tarea programada para las 08:52
+2025/05/16 08:52:14 | Checking... 08:52
+2025/05/16 08:52:44 | Archivo config existente, comprobando formato
+2025/05/16 08:52:44 | Checking... 08:52
+2025/05/16 08:53:11 | Archivo config existente, comprobando formato
+2025/05/16 08:53:11 | Tarea programada para las 08:52
+2025/05/16 08:53:11 | Checking... 08:52
+2025/05/16 08:53:41 | Archivo config existente, comprobando formato
+2025/05/16 08:53:41 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 08:53:41 | Tarea programada para las 08:54
+2025/05/16 08:53:41 | Checking... 08:54
+2025/05/16 08:54:11 | Archivo config existente, comprobando formato
+2025/05/16 08:54:11 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/16 08:54:11 | Archivo config existente, comprobando formato
+2025/05/16 08:54:11 | Archivo config existente, comprobando formato
+2025/05/16 08:54:11 | Conectando a la base de datos...
+2025/05/16 08:54:11 | 394 registros recuperados de la base de datos.
+2025/05/16 08:54:12 | Fichero generado: prueba_20250516.xlsx
+2025/05/16 08:54:12 | Conectando via SFTP a 192.168.200.135...
+2025/05/16 08:54:12 | starting thread (client mode): 0x77798980
+2025/05/16 08:54:12 | Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025/05/16 08:54:12 | Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_8.6
+2025/05/16 08:54:12 | Connected (version 2.0, client OpenSSH_for_Windows_8.6)
+2025/05/16 08:54:12 | === Key exchange possibilities ===
+2025/05/16 08:54:12 | kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2025/05/16 08:54:12 | server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025/05/16 08:54:12 | client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 08:54:12 | server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 08:54:12 | client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 08:54:12 | server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 08:54:12 | client compress: none, zlib@openssh.com
+2025/05/16 08:54:12 | server compress: none, zlib@openssh.com
+2025/05/16 08:54:12 | client lang: <none>
+2025/05/16 08:54:12 | server lang: <none>
+2025/05/16 08:54:12 | kex follows: False
+2025/05/16 08:54:12 | === Key exchange agreements ===
+2025/05/16 08:54:12 | Kex: curve25519-sha256@libssh.org
+2025/05/16 08:54:12 | HostKey: ssh-ed25519
+2025/05/16 08:54:12 | Cipher: aes128-ctr
+2025/05/16 08:54:12 | MAC: hmac-sha2-256
+2025/05/16 08:54:12 | Compression: none
+2025/05/16 08:54:12 | === End of kex handshake ===
+2025/05/16 08:54:12 | kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025/05/16 08:54:12 | Switch to new keys ...
+2025/05/16 08:54:12 | Attempting password auth...
+2025/05/16 08:54:12 | Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025/05/16 08:54:12 | userauth is OK
+2025/05/16 08:54:12 | Authentication (password) successful!
+2025/05/16 08:54:12 | [chan 0] Max packet in: 32768 bytes
+2025/05/16 08:54:12 | Received global request "hostkeys-00@openssh.com"
+2025/05/16 08:54:12 | Rejecting "hostkeys-00@openssh.com" global request from server.
+2025/05/16 08:54:12 | [chan 0] Max packet out: 32768 bytes
+2025/05/16 08:54:12 | Secsh channel 0 opened.
+2025/05/16 08:54:12 | [chan 0] Sesch channel 0 request ok
+2025/05/16 08:54:12 | [chan 0] Opened sftp connection (server version 3)
+2025/05/16 08:54:12 | Buscando la ruta /users/usu
+2025/05/16 08:54:12 | [chan 0] stat(b'/users/usu')
+2025/05/16 08:54:12 | Error en la ruta especificada por el usuario, se descarga el archivo en la ruta local
+2025/05/16 08:54:12 | [chan 0] stat(b'/')
+2025/05/16 08:54:12 | [chan 0] normalize(b'/')
+2025/05/16 08:54:12 | [chan 0] sftp session closed.
+2025/05/16 08:54:12 | [chan 0] EOF sent (0)
+2025/05/16 08:54:12 | EOF in transport thread
+2025/05/16 08:54:12 | Error en el proceso: SFTPClient.put() missing 1 required positional argument: 'remotepath'
+2025/05/16 08:54:12 | Checking... 08:54
+2025/05/16 08:55:17 | Archivo config existente, comprobando formato
+2025/05/16 08:55:17 | Tarea programada para las 08:54
+2025/05/16 08:55:17 | Checking... 08:54
+2025/05/16 08:55:47 | Archivo config existente, comprobando formato
+2025/05/16 08:55:47 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 08:55:47 | Tarea programada para las 08:56
+2025/05/16 08:55:47 | Checking... 08:56
+2025/05/16 08:56:17 | Archivo config existente, comprobando formato
+2025/05/16 08:56:17 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/16 08:56:17 | Archivo config existente, comprobando formato
+2025/05/16 08:56:17 | Archivo config existente, comprobando formato
+2025/05/16 08:56:17 | Conectando a la base de datos...
+2025/05/16 08:56:18 | 394 registros recuperados de la base de datos.
+2025/05/16 08:56:18 | Fichero generado: prueba_20250516.xlsx
+2025/05/16 08:56:18 | Conectando via SFTP a 192.168.200.135...
+2025/05/16 08:56:18 | starting thread (client mode): 0xca868980
+2025/05/16 08:56:18 | Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025/05/16 08:56:18 | Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_8.6
+2025/05/16 08:56:18 | Connected (version 2.0, client OpenSSH_for_Windows_8.6)
+2025/05/16 08:56:18 | === Key exchange possibilities ===
+2025/05/16 08:56:18 | kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2025/05/16 08:56:18 | server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025/05/16 08:56:18 | client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 08:56:18 | server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 08:56:18 | client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 08:56:18 | server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 08:56:18 | client compress: none, zlib@openssh.com
+2025/05/16 08:56:18 | server compress: none, zlib@openssh.com
+2025/05/16 08:56:18 | client lang: <none>
+2025/05/16 08:56:18 | server lang: <none>
+2025/05/16 08:56:18 | kex follows: False
+2025/05/16 08:56:18 | === Key exchange agreements ===
+2025/05/16 08:56:18 | Kex: curve25519-sha256@libssh.org
+2025/05/16 08:56:18 | HostKey: ssh-ed25519
+2025/05/16 08:56:18 | Cipher: aes128-ctr
+2025/05/16 08:56:18 | MAC: hmac-sha2-256
+2025/05/16 08:56:18 | Compression: none
+2025/05/16 08:56:18 | === End of kex handshake ===
+2025/05/16 08:56:18 | kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025/05/16 08:56:18 | Switch to new keys ...
+2025/05/16 08:56:18 | Attempting password auth...
+2025/05/16 08:56:18 | Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025/05/16 08:56:18 | userauth is OK
+2025/05/16 08:56:18 | Authentication (password) successful!
+2025/05/16 08:56:18 | [chan 0] Max packet in: 32768 bytes
+2025/05/16 08:56:18 | Received global request "hostkeys-00@openssh.com"
+2025/05/16 08:56:18 | Rejecting "hostkeys-00@openssh.com" global request from server.
+2025/05/16 08:56:18 | [chan 0] Max packet out: 32768 bytes
+2025/05/16 08:56:18 | Secsh channel 0 opened.
+2025/05/16 08:56:18 | [chan 0] Sesch channel 0 request ok
+2025/05/16 08:56:18 | [chan 0] Opened sftp connection (server version 3)
+2025/05/16 08:56:18 | Buscando la ruta /users/usu
+2025/05/16 08:56:18 | [chan 0] stat(b'/users/usu')
+2025/05/16 08:56:18 | Error en la ruta especificada por el usuario, se descarga el archivo en la ruta local
+2025/05/16 08:56:18 | [chan 0] sftp session closed.
+2025/05/16 08:56:18 | [chan 0] EOF sent (0)
+2025/05/16 08:56:18 | EOF in transport thread
+2025/05/16 08:56:18 | Error en el proceso: SFTPClient.put() missing 1 required positional argument: 'remotepath'
+2025/05/16 08:56:18 | Checking... 08:56
+2025/05/16 08:56:48 | Archivo config existente, comprobando formato
+2025/05/16 08:56:48 | Checking... 08:56
+2025/05/16 08:58:08 | Archivo config existente, comprobando formato
+2025/05/16 08:58:08 | Tarea programada para las 08:56
+2025/05/16 08:58:08 | Checking... 08:56
+2025/05/16 08:58:38 | Archivo config existente, comprobando formato
+2025/05/16 08:58:38 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 08:58:38 | Tarea programada para las 08:59
+2025/05/16 08:58:38 | Checking... 08:59
+2025/05/16 08:59:08 | Archivo config existente, comprobando formato
+2025/05/16 08:59:08 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/16 08:59:08 | Archivo config existente, comprobando formato
+2025/05/16 08:59:08 | Archivo config existente, comprobando formato
+2025/05/16 08:59:08 | Conectando a la base de datos...
+2025/05/16 08:59:08 | 394 registros recuperados de la base de datos.
+2025/05/16 08:59:08 | Fichero generado: prueba_20250516.xlsx
+2025/05/16 08:59:08 | Conectando via SFTP a 192.168.200.135...
+2025/05/16 08:59:08 | starting thread (client mode): 0x47cfc980
+2025/05/16 08:59:08 | Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025/05/16 08:59:08 | Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_8.6
+2025/05/16 08:59:08 | Connected (version 2.0, client OpenSSH_for_Windows_8.6)
+2025/05/16 08:59:09 | === Key exchange possibilities ===
+2025/05/16 08:59:09 | kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2025/05/16 08:59:09 | server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025/05/16 08:59:09 | client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 08:59:09 | server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 08:59:09 | client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 08:59:09 | server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 08:59:09 | client compress: none, zlib@openssh.com
+2025/05/16 08:59:09 | server compress: none, zlib@openssh.com
+2025/05/16 08:59:09 | client lang: <none>
+2025/05/16 08:59:09 | server lang: <none>
+2025/05/16 08:59:09 | kex follows: False
+2025/05/16 08:59:09 | === Key exchange agreements ===
+2025/05/16 08:59:09 | Kex: curve25519-sha256@libssh.org
+2025/05/16 08:59:09 | HostKey: ssh-ed25519
+2025/05/16 08:59:09 | Cipher: aes128-ctr
+2025/05/16 08:59:09 | MAC: hmac-sha2-256
+2025/05/16 08:59:09 | Compression: none
+2025/05/16 08:59:09 | === End of kex handshake ===
+2025/05/16 08:59:09 | kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025/05/16 08:59:09 | Switch to new keys ...
+2025/05/16 08:59:09 | Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025/05/16 08:59:09 | Attempting password auth...
+2025/05/16 08:59:09 | userauth is OK
+2025/05/16 08:59:09 | Authentication (password) successful!
+2025/05/16 08:59:09 | [chan 0] Max packet in: 32768 bytes
+2025/05/16 08:59:09 | Received global request "hostkeys-00@openssh.com"
+2025/05/16 08:59:09 | Rejecting "hostkeys-00@openssh.com" global request from server.
+2025/05/16 08:59:09 | [chan 0] Max packet out: 32768 bytes
+2025/05/16 08:59:09 | Secsh channel 0 opened.
+2025/05/16 08:59:09 | [chan 0] Sesch channel 0 request ok
+2025/05/16 08:59:09 | [chan 0] Opened sftp connection (server version 3)
+2025/05/16 08:59:09 | Buscando la ruta /users/usu
+2025/05/16 08:59:09 | [chan 0] stat(b'/users/usu')
+2025/05/16 08:59:09 | Error en la ruta especificada por el usuario, se descarga el archivo en la ruta local
+2025/05/16 08:59:09 | [chan 0] stat(b'./')
+2025/05/16 08:59:09 | [chan 0] normalize(b'./')
+2025/05/16 08:59:09 | [chan 0] sftp session closed.
+2025/05/16 08:59:09 | [chan 0] EOF sent (0)
+2025/05/16 08:59:09 | EOF in transport thread
+2025/05/16 08:59:09 | Error en el proceso: SFTPClient.put() missing 1 required positional argument: 'remotepath'
+2025/05/16 08:59:09 | Checking... 08:59
+2025/05/16 08:59:14 | Archivo config existente, comprobando formato
+2025/05/16 08:59:14 | Tarea programada para las 08:59
+2025/05/16 08:59:14 | Checking... 08:59
+2025/05/16 08:59:44 | Archivo config existente, comprobando formato
+2025/05/16 08:59:44 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 08:59:44 | Tarea programada para las 09:00
+2025/05/16 08:59:44 | Checking... 09:00
+2025/05/16 09:00:14 | Archivo config existente, comprobando formato
+2025/05/16 09:00:14 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/16 09:00:14 | Archivo config existente, comprobando formato
+2025/05/16 09:00:14 | Archivo config existente, comprobando formato
+2025/05/16 09:00:14 | Conectando a la base de datos...
+2025/05/16 09:00:14 | 394 registros recuperados de la base de datos.
+2025/05/16 09:00:15 | Fichero generado: prueba_20250516.xlsx
+2025/05/16 09:00:15 | Conectando via SFTP a 192.168.200.135...
+2025/05/16 09:00:15 | starting thread (client mode): 0x7fe08980
+2025/05/16 09:00:15 | Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025/05/16 09:00:15 | Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_8.6
+2025/05/16 09:00:15 | Connected (version 2.0, client OpenSSH_for_Windows_8.6)
+2025/05/16 09:00:15 | === Key exchange possibilities ===
+2025/05/16 09:00:15 | kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2025/05/16 09:00:15 | server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025/05/16 09:00:15 | client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 09:00:15 | server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 09:00:15 | client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 09:00:15 | server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 09:00:15 | client compress: none, zlib@openssh.com
+2025/05/16 09:00:15 | server compress: none, zlib@openssh.com
+2025/05/16 09:00:15 | client lang: <none>
+2025/05/16 09:00:15 | server lang: <none>
+2025/05/16 09:00:15 | kex follows: False
+2025/05/16 09:00:15 | === Key exchange agreements ===
+2025/05/16 09:00:15 | Kex: curve25519-sha256@libssh.org
+2025/05/16 09:00:15 | HostKey: ssh-ed25519
+2025/05/16 09:00:15 | Cipher: aes128-ctr
+2025/05/16 09:00:15 | MAC: hmac-sha2-256
+2025/05/16 09:00:15 | Compression: none
+2025/05/16 09:00:15 | === End of kex handshake ===
+2025/05/16 09:00:15 | kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025/05/16 09:00:15 | Switch to new keys ...
+2025/05/16 09:00:15 | Attempting password auth...
+2025/05/16 09:00:15 | Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025/05/16 09:00:15 | userauth is OK
+2025/05/16 09:00:15 | Authentication (password) successful!
+2025/05/16 09:00:15 | [chan 0] Max packet in: 32768 bytes
+2025/05/16 09:00:15 | Received global request "hostkeys-00@openssh.com"
+2025/05/16 09:00:15 | Rejecting "hostkeys-00@openssh.com" global request from server.
+2025/05/16 09:00:15 | [chan 0] Max packet out: 32768 bytes
+2025/05/16 09:00:15 | Secsh channel 0 opened.
+2025/05/16 09:00:15 | [chan 0] Sesch channel 0 request ok
+2025/05/16 09:00:15 | [chan 0] Opened sftp connection (server version 3)
+2025/05/16 09:00:15 | Buscando la ruta /users/usu
+2025/05/16 09:00:15 | [chan 0] stat(b'/users/usu')
+2025/05/16 09:00:15 | Error en la ruta especificada por el usuario, se descarga el archivo en la ruta local
+2025/05/16 09:00:15 | [chan 0] stat(b'.')
+2025/05/16 09:00:15 | [chan 0] normalize(b'.')
+2025/05/16 09:00:15 | [chan 0] sftp session closed.
+2025/05/16 09:00:15 | [chan 0] EOF sent (0)
+2025/05/16 09:00:15 | EOF in transport thread
+2025/05/16 09:00:15 | Error en el proceso: [Errno 13] Permission denied: '.'
+2025/05/16 09:00:15 | Checking... 09:00
+2025/05/16 09:00:45 | Archivo config existente, comprobando formato
+2025/05/16 09:00:45 | Checking... 09:00
+2025/05/16 09:00:53 | Archivo config existente, comprobando formato
+2025/05/16 09:00:53 | Tarea programada para las 09:00
+2025/05/16 09:00:53 | Checking... 09:00
+2025/05/16 09:01:23 | Archivo config existente, comprobando formato
+2025/05/16 09:01:23 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 09:01:23 | Tarea programada para las 09:01
+2025/05/16 09:01:23 | Checking... 09:01
+2025/05/16 09:01:53 | Archivo config existente, comprobando formato
+2025/05/16 09:01:53 | Checking... 09:01
+2025/05/16 09:02:06 | Archivo config existente, comprobando formato
+2025/05/16 09:02:06 | Tarea programada para las 09:03
+2025/05/16 09:02:06 | Checking... 09:03
+2025/05/16 09:02:36 | Archivo config existente, comprobando formato
+2025/05/16 09:02:36 | Checking... 09:03
+2025/05/16 09:03:06 | Archivo config existente, comprobando formato
+2025/05/16 09:03:06 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/16 09:03:06 | Archivo config existente, comprobando formato
+2025/05/16 09:03:06 | Archivo config existente, comprobando formato
+2025/05/16 09:03:06 | Conectando a la base de datos...
+2025/05/16 09:03:07 | 394 registros recuperados de la base de datos.
+2025/05/16 09:03:07 | Fichero generado: prueba_20250516.xlsx
+2025/05/16 09:03:07 | Conectando via SFTP a 192.168.200.135...
+2025/05/16 09:03:07 | starting thread (client mode): 0xa90e4ad0
+2025/05/16 09:03:07 | Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025/05/16 09:03:07 | Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_8.6
+2025/05/16 09:03:07 | Connected (version 2.0, client OpenSSH_for_Windows_8.6)
+2025/05/16 09:03:07 | === Key exchange possibilities ===
+2025/05/16 09:03:07 | kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2025/05/16 09:03:07 | server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025/05/16 09:03:07 | client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 09:03:07 | server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 09:03:07 | client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 09:03:07 | server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 09:03:07 | client compress: none, zlib@openssh.com
+2025/05/16 09:03:07 | server compress: none, zlib@openssh.com
+2025/05/16 09:03:07 | client lang: <none>
+2025/05/16 09:03:07 | server lang: <none>
+2025/05/16 09:03:07 | kex follows: False
+2025/05/16 09:03:07 | === Key exchange agreements ===
+2025/05/16 09:03:07 | Kex: curve25519-sha256@libssh.org
+2025/05/16 09:03:07 | HostKey: ssh-ed25519
+2025/05/16 09:03:07 | Cipher: aes128-ctr
+2025/05/16 09:03:07 | MAC: hmac-sha2-256
+2025/05/16 09:03:07 | Compression: none
+2025/05/16 09:03:07 | === End of kex handshake ===
+2025/05/16 09:03:07 | kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025/05/16 09:03:07 | Switch to new keys ...
+2025/05/16 09:03:07 | Attempting password auth...
+2025/05/16 09:03:07 | Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025/05/16 09:03:07 | userauth is OK
+2025/05/16 09:03:07 | Authentication (password) successful!
+2025/05/16 09:03:07 | [chan 0] Max packet in: 32768 bytes
+2025/05/16 09:03:07 | Received global request "hostkeys-00@openssh.com"
+2025/05/16 09:03:07 | Rejecting "hostkeys-00@openssh.com" global request from server.
+2025/05/16 09:03:07 | [chan 0] Max packet out: 32768 bytes
+2025/05/16 09:03:07 | Secsh channel 0 opened.
+2025/05/16 09:03:07 | [chan 0] Sesch channel 0 request ok
+2025/05/16 09:03:07 | [chan 0] Opened sftp connection (server version 3)
+2025/05/16 09:03:07 | Buscando la ruta /users/usu
+2025/05/16 09:03:07 | [chan 0] stat(b'/users/usu')
+2025/05/16 09:03:07 | Error en la ruta especificada por el usuario, se descarga el archivo en la ruta local
+2025/05/16 09:03:07 | [chan 0] stat(b'/')
+2025/05/16 09:03:07 | [chan 0] normalize(b'/')
+2025/05/16 09:03:07 | [chan 0] sftp session closed.
+2025/05/16 09:03:07 | [chan 0] EOF sent (0)
+2025/05/16 09:03:07 | EOF in transport thread
+2025/05/16 09:03:07 | Error en el proceso: [Errno 13] Permission denied: '/'
+2025/05/16 09:03:07 | Checking... 09:03
+2025/05/16 09:03:14 | Archivo config existente, comprobando formato
+2025/05/16 09:03:14 | Tarea programada para las 09:03
+2025/05/16 09:03:14 | Checking... 09:03
+2025/05/16 09:03:44 | Archivo config existente, comprobando formato
+2025/05/16 09:03:44 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 09:03:44 | Tarea programada para las 09:04
+2025/05/16 09:03:44 | Checking... 09:04
+2025/05/16 09:04:14 | Archivo config existente, comprobando formato
+2025/05/16 09:04:14 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/16 09:04:14 | Archivo config existente, comprobando formato
+2025/05/16 09:04:14 | Archivo config existente, comprobando formato
+2025/05/16 09:04:14 | Conectando a la base de datos...
+2025/05/16 09:04:15 | 394 registros recuperados de la base de datos.
+2025/05/16 09:04:15 | Fichero generado: prueba_20250516.xlsx
+2025/05/16 09:04:15 | Conectando via SFTP a 192.168.200.135...
+2025/05/16 09:04:15 | starting thread (client mode): 0x4e5c8980
+2025/05/16 09:04:15 | Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025/05/16 09:04:15 | Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_8.6
+2025/05/16 09:04:15 | Connected (version 2.0, client OpenSSH_for_Windows_8.6)
+2025/05/16 09:04:15 | === Key exchange possibilities ===
+2025/05/16 09:04:15 | kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2025/05/16 09:04:15 | server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025/05/16 09:04:15 | client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 09:04:15 | server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025/05/16 09:04:15 | client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 09:04:15 | server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025/05/16 09:04:15 | client compress: none, zlib@openssh.com
+2025/05/16 09:04:15 | server compress: none, zlib@openssh.com
+2025/05/16 09:04:15 | client lang: <none>
+2025/05/16 09:04:15 | server lang: <none>
+2025/05/16 09:04:15 | kex follows: False
+2025/05/16 09:04:15 | === Key exchange agreements ===
+2025/05/16 09:04:15 | Kex: curve25519-sha256@libssh.org
+2025/05/16 09:04:15 | HostKey: ssh-ed25519
+2025/05/16 09:04:15 | Cipher: aes128-ctr
+2025/05/16 09:04:15 | MAC: hmac-sha2-256
+2025/05/16 09:04:15 | Compression: none
+2025/05/16 09:04:15 | === End of kex handshake ===
+2025/05/16 09:04:15 | kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025/05/16 09:04:15 | Switch to new keys ...
+2025/05/16 09:04:15 | Attempting password auth...
+2025/05/16 09:04:15 | Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025/05/16 09:04:15 | userauth is OK
+2025/05/16 09:04:15 | Authentication (password) successful!
+2025/05/16 09:04:15 | [chan 0] Max packet in: 32768 bytes
+2025/05/16 09:04:15 | Received global request "hostkeys-00@openssh.com"
+2025/05/16 09:04:15 | Rejecting "hostkeys-00@openssh.com" global request from server.
+2025/05/16 09:04:15 | [chan 0] Max packet out: 32768 bytes
+2025/05/16 09:04:15 | Secsh channel 0 opened.
+2025/05/16 09:04:15 | [chan 0] Sesch channel 0 request ok
+2025/05/16 09:04:16 | [chan 0] Opened sftp connection (server version 3)
+2025/05/16 09:04:16 | Intentando subir archivo a: /users/usu/prueba_20250516.xlsx
+2025/05/16 09:04:16 | [chan 0] stat(b'/users/usu')
+2025/05/16 09:04:16 | La ruta remota '/users/usu' no existe. Intentando subir a la raiz '/'
+2025/05/16 09:04:16 | [chan 0] open(b'prueba_20250516.xlsx', 'wb')
+2025/05/16 09:04:16 | [chan 0] open(b'prueba_20250516.xlsx', 'wb') -> 00000000
+2025/05/16 09:04:16 | [chan 0] close(00000000)
+2025/05/16 09:04:16 | [chan 0] stat(b'prueba_20250516.xlsx')
+2025/05/16 09:04:16 | Archivo subido vía SFTP correctamente
+2025/05/16 09:04:16 | [chan 0] sftp session closed.
+2025/05/16 09:04:16 | [chan 0] EOF sent (0)
+2025/05/16 09:04:16 | EOF in transport thread
+2025/05/16 09:04:16 | Checking... 09:04
+2025/05/16 09:04:46 | Archivo config existente, comprobando formato
+2025/05/16 09:04:46 | Checking... 09:04
+2025/05/16 09:10:27 | Archivo config existente, comprobando formato
+2025/05/16 09:10:27 | Tarea programada para las 09:11
+2025/05/16 09:10:27 | Checking... 09:11
+2025/05/16 09:10:47 | Archivo config existente, comprobando formato
+2025/05/16 09:10:47 | Tarea programada para las 09:11
+2025/05/16 09:10:47 | Checking... 09:11
+2025/05/16 09:11:17 | Archivo config existente, comprobando formato
+2025/05/16 09:11:17 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/16 09:11:17 | Archivo config existente, comprobando formato
+2025/05/16 09:11:17 | Archivo config existente, comprobando formato
+2025/05/16 09:11:17 | Conectando a la base de datos...
+2025/05/16 09:11:17 | 394 registros recuperados de la base de datos.
+2025/05/16 09:11:17 | Fichero generado: prueba_20250516.xlsx
+2025/05/16 09:11:17 | Conectando via FTP a 192.168.200.135...
+2025/05/16 09:11:17 | Error en el proceso: 'NoneType' object has no attribute 'sendall'
+2025/05/16 09:11:17 | Checking... 09:11
+2025/05/16 09:11:47 | Archivo config existente, comprobando formato
+2025/05/16 09:11:47 | Checking... 09:11
+2025/05/16 09:12:17 | Archivo config existente, comprobando formato
+2025/05/16 09:12:17 | Checking... 09:11
+2025/05/16 09:12:47 | Archivo config existente, comprobando formato
+2025/05/16 09:12:47 | Checking... 09:11
+2025/05/16 09:13:17 | Archivo config existente, comprobando formato
+2025/05/16 09:13:17 | Checking... 09:11
+2025/05/16 09:15:06 | Archivo config existente, comprobando formato
+2025/05/16 09:15:06 | Tarea programada para las 09:11
+2025/05/16 09:15:06 | Checking... 09:11
+2025/05/16 09:15:36 | Archivo config existente, comprobando formato
+2025/05/16 09:15:36 | Cancelling job "Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})"
+2025/05/16 09:15:36 | Tarea programada para las 09:16
+2025/05/16 09:15:36 | Checking... 09:16
+2025/05/16 09:16:06 | Archivo config existente, comprobando formato
+2025/05/16 09:16:06 | Running job Job(interval=1, unit=days, do=scheduled_task, args=(), kwargs={})
+2025/05/16 09:16:06 | Archivo config existente, comprobando formato
+2025/05/16 09:16:06 | Archivo config existente, comprobando formato
+2025/05/16 09:16:06 | Conectando a la base de datos...
+2025/05/16 09:16:06 | 394 registros recuperados de la base de datos.
+2025/05/16 09:16:07 | Fichero generado: prueba_20250516.xlsx
+2025/05/16 09:16:07 | Conectando via FTP a 192.168.200.135...
+2025/05/16 09:16:07 | La ruta remota '/users/usu' no existe. Se subira en el directorio raiz.
+2025/05/16 09:16:07 | Archivo subido via FTP correctamente
+2025/05/16 09:16:07 | Checking... 09:16
+2025/05/16 09:27:23 | Archivo config existente, comprobando formato
+2025/05/16 09:27:23 |   Se agrego la opcion: FTP.PATH = Users/user/Desktop
+2025/05/16 09:27:23 | Se ha creado el archivo config
+2025/05/16 09:27:23 | Tarea programada para las 09:16
+2025/05/16 09:27:23 | Checking... 09:16
+2025/05/16 09:27:53 | Archivo config existente, comprobando formato
+2025/05/16 09:27:53 | Checking... 09:16
+2025/05/16 09:28:17 | Se ha creado el archivo config
+2025/05/16 09:28:17 | Tarea programada para las 17:00
+2025/05/16 09:28:17 | Checking... 17:00

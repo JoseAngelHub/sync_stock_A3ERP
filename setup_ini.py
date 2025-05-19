@@ -4,79 +4,98 @@ import logger as J
 
 J.Logger("logs")
 
+
 def create_ini():
     if os.path.isfile("config.ini"):
         J.info("Archivo config existente, comprobando formato")
         update_ini()
         return
-    
-    config = configparser.ConfigParser()
-    config.add_section('DATABASE')
-    config.set('DATABASE', 'SERVER', 'ip')
-    config.set('DATABASE', 'USER', 'usr')
-    config.set('DATABASE', 'PASSWORD', 'pass')
-    config.set('DATABASE', 'DATABASE_NAME', 'db')
-    config.set('DATABASE', 'QUERY', 'spam')
-    
-    config.add_section('CSVDATA')
-    config.set('CSVDATA', 'FORMAT', 'ip')
-    config.set('CSVDATA', 'FILE_NAME', 'usr')
-    
-    config.add_section('FTP')
-    config.set('FTP', 'SERVER_TYPE', 'SFTP')
-    config.set('FTP', 'HOST_FTP', 'usr')
-    config.set('FTP', 'USER_FTP', 'psw')
-    config.set('FTP', 'PASSWORD_FTP', 'pass')
-    config.set('FTP', 'PORT_FTP', '22')
-    
-    config.add_section('TIMER')
-    config.set('TIMER', 'HOUR', '17:00')
-    config.set('TIMER', 'DAYS', '1-5, 7')
 
-    with open('config.ini', 'w') as configfile:
+    config = configparser.ConfigParser()
+    config.add_section("DATABASE")
+    config.set("DATABASE", "SERVER", "ip")
+    config.set("DATABASE", "USER", "usr")
+    config.set("DATABASE", "PASSWORD", "pass")
+    config.set("DATABASE", "DATABASE_NAME", "db")
+    config.set("DATABASE", "QUERY", "spam")
+
+    config.add_section("CSVDATA")
+    config.set("CSVDATA", "FORMAT", "ip")
+    config.set("CSVDATA", "FILE_NAME", "usr")
+
+    config.add_section("FTP")
+    config.set("FTP", "SERVER_TYPE", "SFTP")
+    config.set("FTP", "PATH", "/")
+    config.set("FTP", "HOST_FTP", "usr")
+    config.set("FTP", "USER_FTP", "psw")
+    config.set("FTP", "PASSWORD_FTP", "pass")
+    config.set("FTP", "PORT_FTP", "22")
+    config.set("FTP", "PATH", "/Users/user/Desktop")
+
+    config.add_section("TIMER")
+    config.set("TIMER", "HOUR", "17:00")
+    config.set("TIMER", "DAYS", "1-5, 7")
+
+    with open("config.ini", "w") as configfile:
         config.write(configfile)
         J.info("Se ha creado el archivo config")
-    
+
     config_path = "config.ini"
 
     # Leemos el contenido existente
     with open(config_path, "r") as f:
         lines = f.readlines()
 
-    # Insertamos un comentario donde queramos, por ejemplo al inicio
-    lines.insert(13, "# ESPECIFICAR AL LADO DEL TIPO LA RUTA, ej: SFTP/Users/usuario\n")
-
     # Escribimos de nuevo el archivo
     with open(config_path, "w") as f:
         f.writelines(lines)
 
+
 DEFAULT_CONFIG = {
-    'DATABASE': {
-        'SERVER': 'ip',
-        'USER': 'usr',
-        'PASSWORD': 'pass',
-        'DATABASE_NAME': 'db',
-        'QUERY': 'spam',
+    "DATABASE": {
+        "SERVER": "ip",
+        "USER": "usr",
+        "PASSWORD": "pass",
+        "DATABASE_NAME": "db",
+        "QUERY": "spam",
     },
-    'CSVDATA': {
-        'FORMAT': 'ip',
-        'FILE_NAME': 'usr',
+    "CSVDATA": {
+        "FORMAT": "ip",
+        "FILE_NAME": "usr",
     },
-    'FTP': {
-        'SERVER_TYPE': 'SFTP',
-        'HOST_FTP': 'usr',
-        'USER_FTP': 'psw',
-        'PASSWORD_FTP': 'pass',
-        'PORT_FTP': '22',
+    "FTP": {
+        "SERVER_TYPE": "SFTP",
+        "HOST_FTP": "usr",
+        "USER_FTP": "psw",
+        "PASSWORD_FTP": "pass",
+        "PORT_FTP": "22",
+        "PATH": "/Users/user/Desktop",
     },
-    'TIMER': {
-        'HOUR': '17:00',
-        'DAYS': '1-5, 7',
-    }
+    "TIMER": {
+        "HOUR": "17:00",
+        "DAYS": "1-5, 7",
+    },
 }
 
-SECTIONS = ['DATABASE', 'CSVDATA', 'FTP', 'TIMER']
-OPTIONS = ['SERVER', 'USER', 'PASSWORD', 'DATABASE_NAME', 'QUERY', 'FORMAT', 'FILE_NAME', 'SERVER_TYPE', 'HOST_FTP', 'USER_FTP', 'PASSWORD_FTP', 'PORT_FTP', 'HOUR', 'DAYS']
+SECTIONS = ["DATABASE", "CSVDATA", "FTP", "TIMER"]
+OPTIONS = [
+    "SERVER",
+    "USER",
+    "PASSWORD",
+    "DATABASE_NAME",
+    "QUERY",
+    "FORMAT",
+    "FILE_NAME",
+    "SERVER_TYPE",
+    "HOST_FTP",
+    "USER_FTP",
+    "PASSWORD_FTP",
+    "PATH",
+    "PORT_FTP",
+    "HOUR",
+    "DAYS",
+]
+
 
 def update_ini():
     config_path = "config.ini"
@@ -91,32 +110,15 @@ def update_ini():
         if not config.has_section(section):
             config.add_section(section)
             modified = True
-            J.info(f"Se añadio seccion: [{section}]")
+            J.info(f"Se agrego la seccion: [{section}]")
 
         for option, default_value in options.items():
             if not config.has_option(section, option):
                 config.set(section, option, default_value)
                 modified = True
-                J.info(f"  Se añadio opcion: {section}.{option} = {default_value}")
+                J.info(f"  Se agrego la opcion: {section}.{option} = {default_value}")
 
-    # Solo escribe si se hicieron cambios
     if modified:
-    # Escribimos el config.ini normalmente
-        with open('config.ini', 'w') as configfile:
+        with open("config.ini", "w") as configfile:
             config.write(configfile)
             J.info("Se ha creado el archivo config")
-
-        # Ahora agregamos el comentario específico antes de SERVER_TYPE en [FTP]
-        with open('config.ini', 'r') as f:
-            lines = f.readlines()
-
-        nuevas_lineas = []
-        for i, line in enumerate(lines):
-            # Detectar la línea exacta de SERVER_TYPE
-            if line.strip().lower().startswith("server_type") and "[FTP]" in "".join(lines[max(0, i-5):i]).upper():
-                # Insertar comentario antes de esa línea
-                nuevas_lineas.append("# ESPECIFICAR AL LADO DEL TIPO LA RUTA, ej: SFTP/Users/usuario\n")
-            nuevas_lineas.append(line)
-
-        with open('config.ini', 'w') as f:
-            f.writelines(nuevas_lineas)
